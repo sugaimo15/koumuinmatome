@@ -1,0 +1,62 @@
+{
+  "id": "security-police",
+  "slug": "security-police",
+  "category": "security",
+  "subcategory": "警察",
+  "name": "警察官採用試験（大卒程度・A区分）",
+  "shortName": "警察官（大卒）",
+  "overview": {
+    "description": "都道府県警察が実施する警察官の採用試験。治安維持・犯罪捜査・地域パトロールなどを担う。体力試験があり、身体要件を満たす必要がある。給与は民間より高めで、各種手当も充実している。",
+    "difficulty": 2,
+    "ageLimit": {
+      "max": 35,
+      "note": "都道府県により異なる（多くは29〜35歳）"
+    },
+    "education": "university",
+    "educationNote": "大卒程度のA区分。高卒程度のB区分も別途実施",
+    "salaryRange": {
+      "min": 230,
+      "max": 700
+    },
+    "workLocation": "採用都道府県内（転勤あり）",
+    "tags": ["体力試験あり", "制服あり", "夜勤あり", "各種手当充実"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験",
+      "type": "written",
+      "description": "大卒程度の一般知能・一般知識。文章理解・数的推理・判断推理・社会科学・人文科学・自然科学",
+      "questionCount": 50,
+      "duration": 120,
+      "weight": "1/3"
+    },
+    {
+      "name": "論文試験",
+      "type": "essay",
+      "description": "警察行政・社会問題に関する論述",
+      "duration": 60,
+      "weight": "1/3"
+    },
+    {
+      "name": "体力検査",
+      "type": "physical",
+      "description": "上体起こし・反復横跳び・立ち幅跳びなど体力測定",
+      "weight": "1/6"
+    },
+    {
+      "name": "個別面接",
+      "type": "interview",
+      "description": "人物・使命感・体力への意識を評価",
+      "duration": 30,
+      "weight": "1/6"
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 52000, "passCount": 18200, "competitionRatio": 2.9, "hireCount": 9500 },
+    { "year": 2023, "applicantCount": 55000, "passCount": 19000, "competitionRatio": 2.9, "hireCount": 9200 },
+    { "year": 2022, "applicantCount": 58000, "passCount": 20000, "competitionRatio": 2.9, "hireCount": 9000 }
+  ],
+  "relatedExamIds": ["security-fire", "security-jsdf"],
+  "officialUrl": "https://www.npa.go.jp/bureau/personnel/saiyo/",
+  "lastUpdated": "2025-04-01"
+}

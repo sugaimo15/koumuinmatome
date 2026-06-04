@@ -1,0 +1,63 @@
+{
+  "id": "security-jsdf",
+  "slug": "security-jsdf",
+  "category": "security",
+  "subcategory": "自衛隊",
+  "name": "自衛官採用試験（一般幹部候補生）",
+  "shortName": "自衛官（幹部候補）",
+  "overview": {
+    "description": "陸上・海上・航空自衛隊の幹部（士官）を目指す採用試験。卒業後は幹部候補生学校での教育を経て3等陸・海・空尉に任官。リーダーシップ・体力・専門知識を総合的に評価される。",
+    "difficulty": 3,
+    "ageLimit": {
+      "max": 26,
+      "note": "試験実施年度末（翌年3月31日）時点で26歳未満"
+    },
+    "education": "university",
+    "salaryRange": {
+      "min": 250,
+      "max": 800
+    },
+    "workLocation": "全国の駐屯地・基地（頻繁な転勤あり）",
+    "tags": ["体力試験あり", "全国転勤", "防衛・安全保障", "制服あり", "宿舎完備"]
+  },
+  "subjects": [
+    {
+      "name": "一般教養試験",
+      "type": "written",
+      "description": "大卒程度の教養試験（文章理解・数的推理・判断推理・自然科学・人文科学）",
+      "questionCount": 50,
+      "duration": 100,
+      "weight": "1/4"
+    },
+    {
+      "name": "外国語（英語）試験",
+      "type": "written",
+      "description": "英語4技能の筆記テスト。TOEICスコア提出可能な場合もあり",
+      "questionCount": 40,
+      "duration": 60,
+      "weight": "1/4"
+    },
+    {
+      "name": "小論文",
+      "type": "essay",
+      "description": "防衛・安全保障・国際問題に関する論述",
+      "duration": 60,
+      "weight": "1/4"
+    },
+    {
+      "name": "体力検査・口述試験（面接）",
+      "type": "interview",
+      "description": "体力測定と個別口述試験。リーダーシップ・危機管理能力を評価",
+      "duration": 60,
+      "weight": "1/4"
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 9800, "passCount": 1960, "competitionRatio": 5.0, "hireCount": 980 },
+    { "year": 2023, "applicantCount": 10200, "passCount": 2040, "competitionRatio": 5.0, "hireCount": 960 },
+    { "year": 2022, "applicantCount": 10800, "passCount": 2160, "competitionRatio": 5.0, "hireCount": 940 }
+  ],
+  "relatedExamIds": ["security-police", "security-fire"],
+  "officialUrl": "https://www.mod.go.jp/gsdf/jieikanbosyu/",
+  "lastUpdated": "2025-04-01"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "technical-ict",
+  "slug": "technical-ict",
+  "category": "technical",
+  "subcategory": "デジタル・情報",
+  "name": "国家公務員・地方公務員 技術系試験（デジタル・情報）",
+  "shortName": "技術系（デジタル・情報）",
+  "overview": {
+    "description": "行政のDX推進・情報システム管理・サイバーセキュリティ対策を担う技術系公務員。デジタル庁・総務省・都道府県のICT担当として勤務。IT業界に比べ給与は低いが安定性は高く、近年注目度が高まっている。",
+    "difficulty": 2,
+    "ageLimit": {
+      "max": 35,
+      "note": "採用機関により異なる"
+    },
+    "education": "university",
+    "salaryRange": {
+      "min": 200,
+      "max": 750
+    },
+    "workLocation": "全国・地域内",
+    "tags": ["IT系", "DX推進", "情報系学部優遇", "需要増加中"]
+  },
+  "subjects": [
+    {
+      "name": "基礎能力試験（教養）",
+      "type": "written",
+      "description": "文章理解・数的推理・判断推理・情報・理工系知識",
+      "questionCount": 30,
+      "duration": 100,
+      "weight": "1/3"
+    },
+    {
+      "name": "専門試験（多肢選択式）",
+      "type": "written",
+      "description": "情報工学・プログラミング・アルゴリズム・ネットワーク・データベース・情報セキュリティ",
+      "questionCount": 40,
+      "duration": 120,
+      "weight": "1/3"
+    },
+    {
+      "name": "専門試験（記述式）",
+      "type": "essay",
+      "description": "情報専門分野の記述式問題",
+      "duration": 120,
+      "weight": "1/3"
+    },
+    {
+      "name": "人物試験（面接）",
+      "type": "interview",
+      "description": "個別面接",
+      "duration": 30
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 8400, "passCount": 2100, "competitionRatio": 4.0, "hireCount": 950 },
+    { "year": 2023, "applicantCount": 7200, "passCount": 1800, "competitionRatio": 4.0, "hireCount": 820 },
+    { "year": 2022, "applicantCount": 6100, "passCount": 1500, "competitionRatio": 4.1, "hireCount": 720 }
+  ],
+  "relatedExamIds": ["technical-engineering"],
+  "officialUrl": "https://www.digital.go.jp/",
+  "lastUpdated": "2025-04-01"
+}

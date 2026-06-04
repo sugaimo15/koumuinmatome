@@ -1,0 +1,61 @@
+{
+  "id": "local-city",
+  "slug": "local-city",
+  "category": "local",
+  "subcategory": "市区町村",
+  "name": "市区町村職員採用試験（行政・大卒程度）",
+  "shortName": "市区町村職員",
+  "overview": {
+    "description": "市・区・町・村が実施する行政職員の採用試験。住民に最も身近な行政サービス（戸籍・福祉・税務等）を担う。転勤が少なく地元で長期間働けるのが特長。自治体規模により待遇が異なる。",
+    "difficulty": 2,
+    "ageLimit": {
+      "max": 35,
+      "note": "自治体により異なる（一般的に29〜35歳）"
+    },
+    "education": "university",
+    "salaryRange": {
+      "min": 180,
+      "max": 700
+    },
+    "workLocation": "市区町村内（転勤少なめ）",
+    "tags": ["地元密着", "転勤少ない", "住民サービス", "受けやすい"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験",
+      "type": "written",
+      "description": "文章理解・数的推理・判断推理・一般知識。SPI形式を採用する自治体も増加",
+      "questionCount": 45,
+      "duration": 120,
+      "weight": "1/2"
+    },
+    {
+      "name": "専門試験",
+      "type": "written",
+      "description": "行政・法律・経済など。専門試験を実施しない自治体も多い",
+      "questionCount": 30,
+      "duration": 90,
+      "weight": "1/2"
+    },
+    {
+      "name": "作文・論文",
+      "type": "essay",
+      "description": "テーマに沿った論述。600〜800字程度",
+      "duration": 60
+    },
+    {
+      "name": "個別面接",
+      "type": "interview",
+      "description": "地元への貢献意識・人柄を重視",
+      "duration": 30
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 89600, "passCount": 22400, "competitionRatio": 4.0, "hireCount": 11200 },
+    { "year": 2023, "applicantCount": 95300, "passCount": 23100, "competitionRatio": 4.1, "hireCount": 10800 },
+    { "year": 2022, "applicantCount": 102000, "passCount": 24500, "competitionRatio": 4.2, "hireCount": 10500 }
+  ],
+  "relatedExamIds": ["local-prefecture"],
+  "officialUrl": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/",
+  "lastUpdated": "2025-05-01"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "national-ippanshoku-university",
+  "slug": "national-ippanshoku-university",
+  "category": "national",
+  "subcategory": "一般職",
+  "name": "国家公務員一般職試験（大卒程度）",
+  "shortName": "国家一般職（大卒）",
+  "overview": {
+    "description": "各省庁・出先機関で定型的・定例的な業務に従事する国家公務員。地方勤務が多く、ワークライフバランスを保ちやすい。総合職に比べ難易度は低いが、安定性・待遇は同等に高い。",
+    "difficulty": 3,
+    "ageLimit": {
+      "max": 30,
+      "note": "試験実施年の4月1日時点で21歳以上30歳未満"
+    },
+    "education": "university",
+    "salaryRange": {
+      "min": 210,
+      "max": 700
+    },
+    "workLocation": "採用地方ブロック内（転勤あり）",
+    "tags": ["安定", "地方勤務中心", "ワークライフバランス", "中難度"]
+  },
+  "subjects": [
+    {
+      "name": "基礎能力試験",
+      "type": "written",
+      "description": "知能分野（文章理解・数的推理・判断推理・資料解釈）と知識分野（自然・人文・社会）",
+      "questionCount": 30,
+      "duration": 140,
+      "weight": "3/8"
+    },
+    {
+      "name": "専門試験（多肢選択式）",
+      "type": "written",
+      "description": "政治・法律・経済・社会・英語などから出題。大卒程度の専門知識を問う",
+      "questionCount": 40,
+      "duration": 180,
+      "weight": "4/8"
+    },
+    {
+      "name": "一般論文試験",
+      "type": "essay",
+      "description": "与えられたテーマに関する論述式試験",
+      "duration": 60,
+      "weight": "1/8"
+    },
+    {
+      "name": "人物試験（面接）",
+      "type": "interview",
+      "description": "個別面接",
+      "duration": 30
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 32456, "passCount": 8120, "competitionRatio": 4.0, "hireCount": 3200 },
+    { "year": 2023, "applicantCount": 35210, "passCount": 8450, "competitionRatio": 4.2, "hireCount": 3100 },
+    { "year": 2022, "applicantCount": 38920, "passCount": 8900, "competitionRatio": 4.4, "hireCount": 3000 }
+  ],
+  "relatedExamIds": ["national-sogoshoku", "national-ippanshoku-highschool"],
+  "officialUrl": "https://www.jinji.go.jp/saiyo/siken/",
+  "lastUpdated": "2025-04-01"
+}

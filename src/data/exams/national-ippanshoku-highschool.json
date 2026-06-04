@@ -1,0 +1,55 @@
+{
+  "id": "national-ippanshoku-highschool",
+  "slug": "national-ippanshoku-highschool",
+  "category": "national",
+  "subcategory": "一般職（高卒）",
+  "name": "国家公務員一般職試験（高卒者）",
+  "shortName": "国家一般職（高卒）",
+  "overview": {
+    "description": "高校卒業程度の学力を問う国家公務員試験。税務署・ハローワーク・地方出先機関などで事務職として勤務。高卒後すぐに安定した公務員として働けるのが大きなメリット。",
+    "difficulty": 2,
+    "ageLimit": {
+      "max": 21,
+      "note": "試験実施年の4月1日時点で17歳以上21歳未満"
+    },
+    "education": "high-school",
+    "salaryRange": {
+      "min": 160,
+      "max": 500
+    },
+    "workLocation": "採用地方ブロック内（転勤あり）",
+    "tags": ["高卒可", "安定", "事務職", "早期就職"]
+  },
+  "subjects": [
+    {
+      "name": "基礎能力試験",
+      "type": "written",
+      "description": "知能分野と知識分野（高校卒業程度）",
+      "questionCount": 45,
+      "duration": 100,
+      "weight": "1/2"
+    },
+    {
+      "name": "適性試験",
+      "type": "written",
+      "description": "照合・置換・算出など事務処理能力を測る速度系試験",
+      "questionCount": 120,
+      "duration": 10,
+      "weight": "1/2"
+    },
+    {
+      "name": "人物試験（面接）",
+      "type": "interview",
+      "description": "個別面接",
+      "duration": 20
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 18540, "passCount": 5200, "competitionRatio": 3.6, "hireCount": 2100 },
+    { "year": 2023, "applicantCount": 20100, "passCount": 5400, "competitionRatio": 3.7, "hireCount": 2000 },
+    { "year": 2022, "applicantCount": 22300, "passCount": 5600, "competitionRatio": 4.0, "hireCount": 1900 }
+  ],
+  "relatedExamIds": ["national-ippanshoku-university"],
+  "officialUrl": "https://www.jinji.go.jp/saiyo/siken/",
+  "lastUpdated": "2025-04-01"
+}

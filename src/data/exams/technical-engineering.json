@@ -1,0 +1,62 @@
+{
+  "id": "technical-engineering",
+  "slug": "technical-engineering",
+  "category": "technical",
+  "subcategory": "土木・建築",
+  "name": "国家公務員・地方公務員 技術系試験（土木・建築）",
+  "shortName": "技術系（土木・建築）",
+  "overview": {
+    "description": "インフラ整備・都市計画・建築行政などを担う技術系公務員の採用試験。国土交通省・都道府県・市区町村の技術職として勤務。専門知識があれば教養試験の負担が軽く、文系試験より入りやすい傾向がある。",
+    "difficulty": 2,
+    "ageLimit": {
+      "max": 35,
+      "note": "採用機関により異なる"
+    },
+    "education": "university",
+    "salaryRange": {
+      "min": 200,
+      "max": 750
+    },
+    "workLocation": "全国・地域内",
+    "tags": ["専門職", "土木系学部優遇", "インフラ", "技術力活用"]
+  },
+  "subjects": [
+    {
+      "name": "基礎能力試験（教養）",
+      "type": "written",
+      "description": "文章理解・数的推理・判断推理・社会・理工系知識",
+      "questionCount": 30,
+      "duration": 100,
+      "weight": "1/3"
+    },
+    {
+      "name": "専門試験（多肢選択式）",
+      "type": "written",
+      "description": "土木工学・材料力学・水理学・土質力学・測量・構造力学など",
+      "questionCount": 40,
+      "duration": 120,
+      "weight": "1/3"
+    },
+    {
+      "name": "専門試験（記述式）",
+      "type": "essay",
+      "description": "土木専門分野の記述式問題",
+      "duration": 120,
+      "weight": "1/3"
+    },
+    {
+      "name": "人物試験（面接）",
+      "type": "interview",
+      "description": "個別面接",
+      "duration": 30
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 12300, "passCount": 3800, "competitionRatio": 3.2, "hireCount": 1900 },
+    { "year": 2023, "applicantCount": 13200, "passCount": 4100, "competitionRatio": 3.2, "hireCount": 1850 },
+    { "year": 2022, "applicantCount": 14100, "passCount": 4300, "competitionRatio": 3.3, "hireCount": 1800 }
+  ],
+  "relatedExamIds": ["technical-ict"],
+  "officialUrl": "https://www.jinji.go.jp/saiyo/siken/",
+  "lastUpdated": "2025-04-01"
+}

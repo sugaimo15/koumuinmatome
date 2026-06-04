@@ -1,0 +1,30 @@
+[
+  {
+    "id": "national",
+    "label": "国家公務員",
+    "description": "中央官庁・国の機関に勤務する公務員。霞が関を中心に政策立案・行政運営を担う。",
+    "color": "blue",
+    "examIds": ["national-sogoshoku", "national-ippanshoku-university", "national-ippanshoku-highschool"]
+  },
+  {
+    "id": "local",
+    "label": "地方公務員",
+    "description": "都道府県・市区町村に勤務する公務員。地域住民に最も身近な行政サービスを担う。",
+    "color": "emerald",
+    "examIds": ["local-prefecture", "local-city"]
+  },
+  {
+    "id": "technical",
+    "label": "技術系専門職",
+    "description": "専門技術（土木・建築・電気・ICT等）を活かして行政に携わる技術系公務員。",
+    "color": "violet",
+    "examIds": ["technical-engineering", "technical-ict"]
+  },
+  {
+    "id": "security",
+    "label": "公安・消防・自衛隊",
+    "description": "治安・防災・国防を担う実力組織系の公務員。体力・使命感が求められる。",
+    "color": "red",
+    "examIds": ["security-police", "security-fire", "security-jsdf"]
+  }
+]

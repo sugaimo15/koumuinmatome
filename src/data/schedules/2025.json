@@ -1,0 +1,270 @@
+{
+  "year": 2025,
+  "lastUpdated": "2025-05-01",
+  "events": [
+    {
+      "id": "ns-2025-app-start",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "application-start",
+      "date": "2025-01-20",
+      "isApproximate": false,
+      "note": "インターネット申込のみ"
+    },
+    {
+      "id": "ns-2025-app-end",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "application-end",
+      "date": "2025-01-31",
+      "isApproximate": false
+    },
+    {
+      "id": "ns-2025-written",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "exam-written",
+      "date": "2025-03-23",
+      "isApproximate": false,
+      "note": "一次試験（教養・専門多肢選択式）"
+    },
+    {
+      "id": "ns-2025-result1",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "exam-result",
+      "date": "2025-04-15",
+      "isApproximate": false,
+      "note": "一次合格発表"
+    },
+    {
+      "id": "ns-2025-interview",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "exam-interview",
+      "date": "2025-05-12",
+      "endDate": "2025-05-21",
+      "isApproximate": false,
+      "note": "二次試験（記述式・政策論文・人物試験）"
+    },
+    {
+      "id": "ns-2025-final",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "exam-final-result",
+      "date": "2025-06-10",
+      "isApproximate": false
+    },
+    {
+      "id": "ni-u-2025-app-start",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "application-start",
+      "date": "2025-03-24",
+      "isApproximate": false
+    },
+    {
+      "id": "ni-u-2025-app-end",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "application-end",
+      "date": "2025-04-07",
+      "isApproximate": false
+    },
+    {
+      "id": "ni-u-2025-written",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "exam-written",
+      "date": "2025-06-15",
+      "isApproximate": false
+    },
+    {
+      "id": "ni-u-2025-result1",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "exam-result",
+      "date": "2025-07-08",
+      "isApproximate": false
+    },
+    {
+      "id": "ni-u-2025-interview",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "exam-interview",
+      "date": "2025-07-28",
+      "endDate": "2025-08-08",
+      "isApproximate": false
+    },
+    {
+      "id": "ni-u-2025-final",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "exam-final-result",
+      "date": "2025-08-19",
+      "isApproximate": false
+    },
+    {
+      "id": "ni-h-2025-written",
+      "examId": "national-ippanshoku-highschool",
+      "examName": "国家一般職（高卒）",
+      "category": "national",
+      "eventType": "exam-written",
+      "date": "2025-09-07",
+      "isApproximate": false
+    },
+    {
+      "id": "ni-h-2025-final",
+      "examId": "national-ippanshoku-highschool",
+      "examName": "国家一般職（高卒）",
+      "category": "national",
+      "eventType": "exam-final-result",
+      "date": "2025-11-11",
+      "isApproximate": false
+    },
+    {
+      "id": "pref-2025-written",
+      "examId": "local-prefecture",
+      "examName": "都道府県職員",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2025-06-22",
+      "isApproximate": true,
+      "note": "多くの都道府県が統一実施（前期）"
+    },
+    {
+      "id": "pref-2025-final",
+      "examId": "local-prefecture",
+      "examName": "都道府県職員",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2025-09-20",
+      "isApproximate": true
+    },
+    {
+      "id": "city-2025-written",
+      "examId": "local-city",
+      "examName": "市区町村職員",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2025-06-22",
+      "isApproximate": true,
+      "note": "市町村統一（A日程）"
+    },
+    {
+      "id": "city-2025-written2",
+      "examId": "local-city",
+      "examName": "市区町村職員（B日程）",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2025-07-27",
+      "isApproximate": true,
+      "note": "市町村統一（B日程）"
+    },
+    {
+      "id": "city-2025-final",
+      "examId": "local-city",
+      "examName": "市区町村職員",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2025-10-15",
+      "isApproximate": true
+    },
+    {
+      "id": "tech-eng-2025-written",
+      "examId": "technical-engineering",
+      "examName": "技術系（土木・建築）",
+      "category": "technical",
+      "eventType": "exam-written",
+      "date": "2025-06-15",
+      "isApproximate": false
+    },
+    {
+      "id": "tech-ict-2025-written",
+      "examId": "technical-ict",
+      "examName": "技術系（デジタル・情報）",
+      "category": "technical",
+      "eventType": "exam-written",
+      "date": "2025-06-15",
+      "isApproximate": false
+    },
+    {
+      "id": "police-2025-written1",
+      "examId": "security-police",
+      "examName": "警察官（大卒）",
+      "category": "security",
+      "eventType": "exam-written",
+      "date": "2025-05-18",
+      "isApproximate": true,
+      "note": "第1回試験（多くの都道府県）"
+    },
+    {
+      "id": "police-2025-written2",
+      "examId": "security-police",
+      "examName": "警察官（大卒）",
+      "category": "security",
+      "eventType": "exam-written",
+      "date": "2025-09-21",
+      "isApproximate": true,
+      "note": "第2回試験（多くの都道府県）"
+    },
+    {
+      "id": "fire-2025-written",
+      "examId": "security-fire",
+      "examName": "消防官（大卒）",
+      "category": "security",
+      "eventType": "exam-written",
+      "date": "2025-06-29",
+      "isApproximate": true,
+      "note": "消防官統一試験（Ⅰ類）"
+    },
+    {
+      "id": "fire-2025-final",
+      "examId": "security-fire",
+      "examName": "消防官（大卒）",
+      "category": "security",
+      "eventType": "exam-final-result",
+      "date": "2025-10-10",
+      "isApproximate": true
+    },
+    {
+      "id": "jsdf-2025-app-start",
+      "examId": "security-jsdf",
+      "examName": "自衛官（幹部候補）",
+      "category": "security",
+      "eventType": "application-start",
+      "date": "2025-02-01",
+      "isApproximate": false
+    },
+    {
+      "id": "jsdf-2025-written",
+      "examId": "security-jsdf",
+      "examName": "自衛官（幹部候補）",
+      "category": "security",
+      "eventType": "exam-written",
+      "date": "2025-04-20",
+      "isApproximate": false
+    },
+    {
+      "id": "jsdf-2025-final",
+      "examId": "security-jsdf",
+      "examName": "自衛官（幹部候補）",
+      "category": "security",
+      "eventType": "exam-final-result",
+      "date": "2025-06-20",
+      "isApproximate": false
+    }
+  ]
+}

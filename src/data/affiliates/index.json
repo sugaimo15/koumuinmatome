@@ -1,0 +1,90 @@
+[
+  {
+    "id": "book-sogoshoku-zemi",
+    "title": "公務員総合職 過去問500【大卒程度】",
+    "url": "https://amzn.to/example1",
+    "type": "book",
+    "price": "¥2,860",
+    "publisher": "実務教育出版",
+    "description": "最新5年分の過去問を完全収録。解説が丁寧で独学に最適。",
+    "examIds": ["national-sogoshoku"],
+    "imageUrl": ""
+  },
+  {
+    "id": "book-ippanshoku-kyoyo",
+    "title": "公務員試験 スーパー過去問ゼミ 判断推理",
+    "url": "https://amzn.to/example2",
+    "type": "book",
+    "price": "¥1,760",
+    "publisher": "実務教育出版",
+    "description": "判断推理の定番参考書。難易度別に問題が整理されており、基礎から応用まで対応。",
+    "examIds": ["national-ippanshoku-university", "national-ippanshoku-highschool", "local-prefecture", "local-city"],
+    "imageUrl": ""
+  },
+  {
+    "id": "book-kyoyo-sugaku",
+    "title": "公務員試験 数的推理がみるみるわかる！解法の玉手箱",
+    "url": "https://amzn.to/example3",
+    "type": "book",
+    "price": "¥1,650",
+    "publisher": "実務教育出版",
+    "description": "数学が苦手な人でも解けるようになる定番書。図解・解法パターンが充実。",
+    "examIds": ["national-ippanshoku-university", "local-prefecture", "local-city", "security-police", "security-fire"],
+    "imageUrl": ""
+  },
+  {
+    "id": "course-lec",
+    "title": "LEC東京リーガルマインド 公務員講座",
+    "url": "https://example.com/lec",
+    "type": "course",
+    "price": "¥68,000〜",
+    "publisher": "LEC東京リーガルマインド",
+    "description": "全国展開の大手予備校。通学・通信・Webの3形態から選べる。合格実績が豊富。",
+    "examIds": ["national-sogoshoku", "national-ippanshoku-university", "local-prefecture", "local-city"],
+    "imageUrl": ""
+  },
+  {
+    "id": "course-tac",
+    "title": "TAC公務員講座",
+    "url": "https://example.com/tac",
+    "type": "course",
+    "price": "¥78,000〜",
+    "publisher": "TAC",
+    "description": "資格スクールの老舗TAC。カリキュラムが体系的で、合格率が高い。",
+    "examIds": ["national-sogoshoku", "national-ippanshoku-university", "local-prefecture"],
+    "imageUrl": ""
+  },
+  {
+    "id": "course-jissen",
+    "title": "実務教育出版 通信講座",
+    "url": "https://example.com/jitsumu",
+    "type": "course",
+    "price": "¥35,000〜",
+    "publisher": "実務教育出版",
+    "description": "参考書で有名な実務教育出版の通信講座。コストパフォーマンスが高く、自宅学習向き。",
+    "examIds": ["national-ippanshoku-university", "national-ippanshoku-highschool", "local-city", "security-police"],
+    "imageUrl": ""
+  },
+  {
+    "id": "book-police-taisaku",
+    "title": "警察官採用試験問題集",
+    "url": "https://amzn.to/example4",
+    "type": "book",
+    "price": "¥1,980",
+    "publisher": "実務教育出版",
+    "description": "警察官試験に特化した問題集。体力試験の対策方法も収録。",
+    "examIds": ["security-police"],
+    "imageUrl": ""
+  },
+  {
+    "id": "book-tech-doboku",
+    "title": "技術系公務員 土木の専門試験問題集",
+    "url": "https://amzn.to/example5",
+    "type": "book",
+    "price": "¥2,420",
+    "publisher": "実務教育出版",
+    "description": "技術系公務員（土木）の専門試験に特化した問題集。各科目を丁寧に解説。",
+    "examIds": ["technical-engineering"],
+    "imageUrl": ""
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "id": "local-prefecture",
+  "slug": "local-prefecture",
+  "category": "local",
+  "subcategory": "都道府県",
+  "name": "都道府県職員採用試験（行政・大卒程度）",
+  "shortName": "都道府県職員",
+  "overview": {
+    "description": "都道府県が実施する行政職員の採用試験。地域の政策立案・住民サービスの提供を担う。都道府県ごとに試験内容・日程が異なる。地元に根ざしたキャリアを築きたい人に最適。",
+    "difficulty": 3,
+    "ageLimit": {
+      "max": 35,
+      "note": "都道府県により異なる（多くは30〜35歳上限）"
+    },
+    "education": "university",
+    "salaryRange": {
+      "min": 200,
+      "max": 750
+    },
+    "workLocation": "都道府県内（転勤あり）",
+    "tags": ["地元勤務", "安定", "地域貢献", "行政"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験（一般知能・一般知識）",
+      "type": "written",
+      "description": "文章理解・数的推理・判断推理・資料解釈・一般知識（社会・人文・自然）",
+      "questionCount": 50,
+      "duration": 150,
+      "weight": "1/2"
+    },
+    {
+      "name": "専門試験",
+      "type": "written",
+      "description": "行政・法律・経済など専門分野。都道府県によって出題範囲が異なる",
+      "questionCount": 40,
+      "duration": 120,
+      "weight": "1/2"
+    },
+    {
+      "name": "論文試験",
+      "type": "essay",
+      "description": "行政課題や社会問題についての論述",
+      "duration": 60
+    },
+    {
+      "name": "個別面接",
+      "type": "interview",
+      "description": "人物・志望動機・地域への思いを評価",
+      "duration": 30
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 45200, "passCount": 9800, "competitionRatio": 4.6, "hireCount": 4200 },
+    { "year": 2023, "applicantCount": 48300, "passCount": 10200, "competitionRatio": 4.7, "hireCount": 4000 },
+    { "year": 2022, "applicantCount": 52100, "passCount": 10800, "competitionRatio": 4.8, "hireCount": 3800 }
+  ],
+  "relatedExamIds": ["local-city"],
+  "officialUrl": "https://www.soumu.go.jp/main_sosiki/jichi_gyousei/",
+  "lastUpdated": "2025-05-01"
+}

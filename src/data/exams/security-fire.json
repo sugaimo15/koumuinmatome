@@ -1,0 +1,62 @@
+{
+  "id": "security-fire",
+  "slug": "security-fire",
+  "category": "security",
+  "subcategory": "消防",
+  "name": "消防官採用試験（大卒程度・Ⅰ類）",
+  "shortName": "消防官（大卒）",
+  "overview": {
+    "description": "市区町村の消防本部が実施する消防官の採用試験。火災消火・救急救助・防火予防などを担う。体力・健康への高い要求があるが、社会的使命感の強い職業。給与は民間企業と同水準かそれ以上。",
+    "difficulty": 2,
+    "ageLimit": {
+      "max": 30,
+      "note": "採用消防本部により異なる（多くは27〜30歳）"
+    },
+    "education": "university",
+    "educationNote": "大卒程度のⅠ類。高卒程度のⅡ・Ⅲ類も別途実施",
+    "salaryRange": {
+      "min": 210,
+      "max": 650
+    },
+    "workLocation": "採用消防本部管内（勤務地固定が多い）",
+    "tags": ["体力試験あり", "24時間勤務制", "社会貢献", "手当充実"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験",
+      "type": "written",
+      "description": "一般知能（文章理解・数的推理・判断推理）と一般知識",
+      "questionCount": 45,
+      "duration": 120,
+      "weight": "1/3"
+    },
+    {
+      "name": "作文・論文",
+      "type": "essay",
+      "description": "与えられたテーマに関する作文",
+      "duration": 60,
+      "weight": "1/6"
+    },
+    {
+      "name": "体力検査",
+      "type": "physical",
+      "description": "腕立て伏せ・上体起こし・握力・反復横跳び・シャトルランなど",
+      "weight": "1/3"
+    },
+    {
+      "name": "個別面接",
+      "type": "interview",
+      "description": "消防への志望動機・体力へのアピールなど",
+      "duration": 30,
+      "weight": "1/6"
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 28000, "passCount": 8400, "competitionRatio": 3.3, "hireCount": 4200 },
+    { "year": 2023, "applicantCount": 30000, "passCount": 8800, "competitionRatio": 3.4, "hireCount": 4000 },
+    { "year": 2022, "applicantCount": 32000, "passCount": 9200, "competitionRatio": 3.5, "hireCount": 3800 }
+  ],
+  "relatedExamIds": ["security-police", "security-jsdf"],
+  "officialUrl": "https://www.fdma.go.jp/",
+  "lastUpdated": "2025-04-01"
+}
