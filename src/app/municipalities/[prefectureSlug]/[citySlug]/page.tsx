@@ -190,6 +190,68 @@ export default async function MunicipalityDetailPage({
         </div>
       </div>
 
+      {/* Exam Schedule */}
+      {m.examSchedule && (
+        <div className="bg-white rounded-2xl border border-slate-100 p-6 mb-6 shadow-sm">
+          <h2 className="text-lg font-bold text-slate-800 mb-4">試験日程（例年の目安）</h2>
+          <div className="space-y-2">
+            {[
+              { label: '申込開始', value: m.examSchedule.applicationStart },
+              { label: '申込締切', value: m.examSchedule.applicationEnd },
+              { label: '一次試験（筆記）', value: m.examSchedule.firstExam },
+              { label: '一次合格発表', value: m.examSchedule.firstResult },
+              { label: '二次試験', value: m.examSchedule.secondExam },
+              { label: '最終合格発表', value: m.examSchedule.finalResult },
+            ]
+              .filter((r) => r.value)
+              .map((row) => (
+                <div key={row.label} className="flex gap-3 py-2 border-b border-slate-50 last:border-0">
+                  <span className="text-xs font-medium text-slate-500 w-36 flex-shrink-0">{row.label}</span>
+                  <span className="text-sm text-slate-700">{row.value}</span>
+                </div>
+              ))}
+          </div>
+          {m.examSchedule.note && (
+            <p className="mt-3 text-xs text-indigo-600 bg-indigo-50 border border-indigo-100 rounded-lg px-3 py-2">
+              💡 {m.examSchedule.note}
+            </p>
+          )}
+        </div>
+      )}
+
+      {/* Salary & Job types */}
+      {(m.salaryDetail || m.jobTypes) && (
+        <div className="bg-white rounded-2xl border border-slate-100 p-6 mb-6 shadow-sm">
+          <h2 className="text-lg font-bold text-slate-800 mb-4">給与・職種情報</h2>
+          {m.salaryDetail && (
+            <div className="mb-4">
+              <p className="text-xs text-slate-500 mb-1">初任給</p>
+              {m.salaryDetail.startingSalary && (
+                <p className="text-2xl font-bold text-slate-900">
+                  {m.salaryDetail.startingSalary.toLocaleString('ja-JP')}円
+                  <span className="text-sm text-slate-400 font-normal ml-1">/ 月</span>
+                </p>
+              )}
+              {m.salaryDetail.note && (
+                <p className="text-xs text-slate-500 mt-1">{m.salaryDetail.note}</p>
+              )}
+            </div>
+          )}
+          {m.jobTypes && m.jobTypes.length > 0 && (
+            <div>
+              <p className="text-xs text-slate-500 mb-2">採用職種一覧</p>
+              <div className="flex flex-wrap gap-2">
+                {m.jobTypes.map((jt) => (
+                  <span key={jt} className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-lg">
+                    {jt}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Notice */}
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 text-sm text-amber-700">
         ⚠️ 掲載情報（最終確認日：{formatDate(m.lastUpdated)}）は参考目的です。最新情報は

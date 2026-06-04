@@ -19,6 +19,20 @@ export interface Municipality {
     tags: string[];
   };
   subjects: ExamSubject[];
+  examSchedule?: {
+    applicationStart?: string;
+    applicationEnd?: string;
+    firstExam?: string;
+    firstResult?: string;
+    secondExam?: string;
+    finalResult?: string;
+    note?: string;
+  };
+  salaryDetail?: {
+    startingSalary?: number;
+    note?: string;
+  };
+  jobTypes?: string[];
   stats: ExamStats[];
   officialUrl: string;
   lastUpdated: string;
