@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, Calendar, Search, Heart, ChevronRight } from 'lucide-react';
+import { ArrowRight, Calendar, Search, Heart, ChevronRight, MapPin } from 'lucide-react';
 import { getAllExams, getCategories } from '@/lib/getExams';
 import { getUpcomingEvents } from '@/lib/getSchedules';
 import { eventTypeLabel } from '@/lib/formatters';
@@ -119,6 +119,28 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      {/* Municipality CTA */}
+      <section className="bg-emerald-50 border-t border-emerald-100 py-14">
+        <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <div className="flex items-center gap-2 text-emerald-700 font-bold text-lg mb-2">
+              <MapPin className="w-5 h-5" />
+              自治体別の試験を探す
+            </div>
+            <p className="text-slate-600 text-sm leading-relaxed">
+              仙台市・名取市・宮城県など、都道府県・市区町村ごとの採用試験情報を掲載。
+              あなたの地元の試験をチェックしよう。
+            </p>
+          </div>
+          <Link
+            href="/municipalities"
+            className="flex-shrink-0 bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition-colors"
+          >
+            自治体一覧へ <ChevronRight className="w-4 h-4" />
+          </Link>
+        </div>
+      </section>
 
       {/* Notice */}
       <div className="max-w-5xl mx-auto px-4 pb-14">

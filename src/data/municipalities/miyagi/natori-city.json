@@ -1,0 +1,44 @@
+{
+  "id": "natori-city",
+  "slug": "natori-city",
+  "prefectureSlug": "miyagi",
+  "prefectureName": "宮城県",
+  "name": "名取市",
+  "type": "city",
+  "overview": {
+    "description": "仙台市の南隣に位置する名取市（人口約8万人）の職員採用試験。仙台空港を抱える成長中の都市で、住みやすさランキング上位の自治体。専門試験なし・SPI型が多く受けやすい。転勤がなく地元で長く働きたい人に向いている。",
+    "difficulty": 2,
+    "ageLimit": { "max": 29, "note": "試験実施年の4月1日時点" },
+    "education": "university",
+    "salaryRange": { "min": 195, "max": 650 },
+    "workLocation": "名取市内（転勤なし）",
+    "tags": ["転勤なし", "地元密着", "仙台近郊", "受けやすい", "SPI型"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験（SPI型）",
+      "type": "written",
+      "description": "SPI形式の適性検査（言語・非言語能力）。従来の公務員教養試験より受けやすい形式",
+      "duration": 70
+    },
+    {
+      "name": "作文試験",
+      "type": "essay",
+      "description": "名取市の行政課題・地域づくりに関するテーマで作文（600〜800字）",
+      "duration": 60
+    },
+    {
+      "name": "個別面接（複数回）",
+      "type": "interview",
+      "description": "一次・二次の複数回面接。地元への愛着・市民サービス意識を重視",
+      "duration": 30
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 280, "passCount": 56, "competitionRatio": 5.0, "hireCount": 18 },
+    { "year": 2023, "applicantCount": 310, "passCount": 60, "competitionRatio": 5.2, "hireCount": 20 },
+    { "year": 2022, "applicantCount": 340, "passCount": 65, "competitionRatio": 5.2, "hireCount": 22 }
+  ],
+  "officialUrl": "https://www.city.natori.miyagi.jp/shisei/jinji/",
+  "lastUpdated": "2025-04-01"
+}

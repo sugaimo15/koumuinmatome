@@ -1,0 +1,56 @@
+{
+  "id": "sendai-city",
+  "slug": "sendai-city",
+  "prefectureSlug": "miyagi",
+  "prefectureName": "宮城県",
+  "name": "仙台市",
+  "type": "designated-city",
+  "overview": {
+    "description": "東北最大の政令指定都市・仙台市が実施する職員採用試験（行政・大卒程度）。100万人規模の都市行政を担う。政令市特有の広範な権限（都道府県並みの権限）を持ち、スケールの大きな仕事ができる。東北の中枢として震災復興・地域活性化に取り組む。",
+    "difficulty": 3,
+    "ageLimit": { "max": 30, "note": "採用予定年の4月1日時点で22歳以上30歳未満" },
+    "education": "university",
+    "salaryRange": { "min": 210, "max": 720 },
+    "workLocation": "仙台市内（区役所・市役所本庁・各施設）",
+    "tags": ["政令指定都市", "東北最大", "スケール大", "転勤少なめ"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験",
+      "type": "written",
+      "description": "大卒程度の一般知能・一般知識。文章理解・数的推理・判断推理・資料解釈・自然科学・社会科学・人文科学",
+      "questionCount": 50,
+      "duration": 150,
+      "weight": "1/3"
+    },
+    {
+      "name": "専門試験",
+      "type": "written",
+      "description": "行政・法律・政治・経済・社会などの専門科目（多肢選択式）",
+      "questionCount": 40,
+      "duration": 120,
+      "weight": "1/3"
+    },
+    {
+      "name": "論文試験",
+      "type": "essay",
+      "description": "市政課題・まちづくりに関するテーマで論述",
+      "duration": 60,
+      "weight": "1/6"
+    },
+    {
+      "name": "個別面接",
+      "type": "interview",
+      "description": "仙台市への思い・地域貢献への意欲・コミュニケーション能力を評価",
+      "duration": 30,
+      "weight": "1/6"
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 3200, "passCount": 560, "competitionRatio": 5.7, "hireCount": 240 },
+    { "year": 2023, "applicantCount": 3450, "passCount": 600, "competitionRatio": 5.8, "hireCount": 250 },
+    { "year": 2022, "applicantCount": 3600, "passCount": 620, "competitionRatio": 5.8, "hireCount": 260 }
+  ],
+  "officialUrl": "https://www.city.sendai.jp/jinji/shiken/index.html",
+  "lastUpdated": "2025-04-01"
+}

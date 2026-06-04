@@ -20,6 +20,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               {[
                 { href: '/exams', label: '試験一覧' },
+                { href: '/municipalities', label: '自治体別' },
                 { href: '/schedule', label: 'スケジュール' },
                 { href: '/compare', label: '試験比較' },
                 { href: '/favorites', label: 'お気に入り' },

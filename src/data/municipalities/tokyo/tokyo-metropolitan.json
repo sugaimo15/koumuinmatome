@@ -1,0 +1,55 @@
+{
+  "id": "tokyo-metropolitan",
+  "slug": "tokyo-metropolitan",
+  "prefectureSlug": "tokyo",
+  "prefectureName": "東京都",
+  "name": "東京都（都職員）",
+  "type": "prefecture",
+  "overview": {
+    "description": "日本最大の自治体・東京都が実施するⅠ類B（行政・一般方式）採用試験。1400万人超の都民に関わる行政を担う。給与水準は全国トップクラスで、キャリアアップの機会も多い。全国から志望者が集まる最難関の地方公務員試験の一つ。",
+    "difficulty": 4,
+    "ageLimit": { "max": 31, "note": "採用年の4月1日時点で22歳以上31歳未満" },
+    "education": "university",
+    "salaryRange": { "min": 240, "max": 900 },
+    "workLocation": "東京都内（23区・多摩地区）",
+    "tags": ["高給与", "最難関", "スケール最大", "全国募集"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験",
+      "type": "written",
+      "description": "大卒程度の一般知能・一般知識",
+      "questionCount": 48,
+      "duration": 120,
+      "weight": "1/3"
+    },
+    {
+      "name": "専門試験（記述式）",
+      "type": "essay",
+      "description": "行政・法律・経済から選択して記述",
+      "duration": 150,
+      "weight": "1/3"
+    },
+    {
+      "name": "論文試験",
+      "type": "essay",
+      "description": "都政課題・社会問題に関する論述",
+      "duration": 80,
+      "weight": "1/6"
+    },
+    {
+      "name": "個別面接（2回）",
+      "type": "interview",
+      "description": "人物試験2回（一次・二次）",
+      "duration": 30,
+      "weight": "1/6"
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 6800, "passCount": 850, "competitionRatio": 8.0, "hireCount": 340 },
+    { "year": 2023, "applicantCount": 7200, "passCount": 880, "competitionRatio": 8.2, "hireCount": 360 },
+    { "year": 2022, "applicantCount": 7600, "passCount": 920, "competitionRatio": 8.3, "hireCount": 380 }
+  ],
+  "officialUrl": "https://www.saiyou2.metro.tokyo.lg.jp/",
+  "lastUpdated": "2025-04-01"
+}

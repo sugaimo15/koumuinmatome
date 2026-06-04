@@ -1,0 +1,12 @@
+{
+  "slug": "tokyo",
+  "name": "東京都",
+  "region": "関東",
+  "municipalities": [
+    { "slug": "tokyo-metropolitan", "name": "東京都（都職員）", "type": "prefecture" },
+    { "slug": "shinjuku-ward", "name": "新宿区", "type": "special-ward" },
+    { "slug": "shibuya-ward", "name": "渋谷区", "type": "special-ward" },
+    { "slug": "setagaya-ward", "name": "世田谷区", "type": "special-ward" },
+    { "slug": "hachioji-city", "name": "八王子市", "type": "city" }
+  ]
+}

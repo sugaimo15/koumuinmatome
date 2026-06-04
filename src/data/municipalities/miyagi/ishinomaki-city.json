@@ -1,0 +1,45 @@
+{
+  "id": "ishinomaki-city",
+  "slug": "ishinomaki-city",
+  "prefectureSlug": "miyagi",
+  "prefectureName": "宮城県",
+  "name": "石巻市",
+  "type": "city",
+  "overview": {
+    "description": "東北最大の水産都市・石巻市（人口約13万人）の職員採用試験。東日本大震災で大きな被害を受けたが復興を遂げ、現在も防災・まちづくりに力を入れる。漁業・水産業が盛んな地域で、地域産業と関わる行政に携わりたい人に。",
+    "difficulty": 2,
+    "ageLimit": { "max": 30, "note": "試験実施年の4月1日時点" },
+    "education": "university",
+    "salaryRange": { "min": 193, "max": 640 },
+    "workLocation": "石巻市内（転勤なし）",
+    "tags": ["復興支援", "水産都市", "転勤なし", "地域産業"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験",
+      "type": "written",
+      "description": "大卒程度の一般知能・一般知識",
+      "questionCount": 45,
+      "duration": 120
+    },
+    {
+      "name": "論文試験",
+      "type": "essay",
+      "description": "石巻市の課題・地域振興に関する論述",
+      "duration": 60
+    },
+    {
+      "name": "個別面接",
+      "type": "interview",
+      "description": "人物・志望動機・石巻への貢献意欲を評価",
+      "duration": 30
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 320, "passCount": 60, "competitionRatio": 5.3, "hireCount": 22 },
+    { "year": 2023, "applicantCount": 350, "passCount": 65, "competitionRatio": 5.4, "hireCount": 24 },
+    { "year": 2022, "applicantCount": 380, "passCount": 68, "competitionRatio": 5.6, "hireCount": 25 }
+  ],
+  "officialUrl": "https://www.city.ishinomaki.lg.jp/cont/10080500/",
+  "lastUpdated": "2025-04-01"
+}

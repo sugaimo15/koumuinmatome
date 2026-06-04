@@ -1,0 +1,45 @@
+{
+  "id": "osaki-city",
+  "slug": "osaki-city",
+  "prefectureSlug": "miyagi",
+  "prefectureName": "宮城県",
+  "name": "大崎市",
+  "type": "city",
+  "overview": {
+    "description": "宮城県北西部に位置する大崎市（人口約12万人）の職員採用試験。ササニシキ・ひとめぼれの産地として知られる農業都市。ラムサール条約登録湿地「蕪栗沼・周辺水田」を持ち、環境・農業行政に関わりたい人に注目の自治体。",
+    "difficulty": 2,
+    "ageLimit": { "max": 30, "note": "試験実施年の4月1日時点" },
+    "education": "university",
+    "salaryRange": { "min": 192, "max": 630 },
+    "workLocation": "大崎市内（転勤なし）",
+    "tags": ["農業都市", "環境行政", "転勤なし", "宮城県北"]
+  },
+  "subjects": [
+    {
+      "name": "教養試験",
+      "type": "written",
+      "description": "大卒程度の一般知能・一般知識",
+      "questionCount": 45,
+      "duration": 120
+    },
+    {
+      "name": "論文試験",
+      "type": "essay",
+      "description": "大崎市の農業・環境行政課題に関する論述",
+      "duration": 60
+    },
+    {
+      "name": "個別面接",
+      "type": "interview",
+      "description": "人物・地域への貢献意欲を評価",
+      "duration": 30
+    }
+  ],
+  "stats": [
+    { "year": 2024, "applicantCount": 180, "passCount": 36, "competitionRatio": 5.0, "hireCount": 12 },
+    { "year": 2023, "applicantCount": 200, "passCount": 40, "competitionRatio": 5.0, "hireCount": 14 },
+    { "year": 2022, "applicantCount": 220, "passCount": 42, "competitionRatio": 5.2, "hireCount": 15 }
+  ],
+  "officialUrl": "https://www.city.osaki.miyagi.jp/index.cfm/26,0,134,html",
+  "lastUpdated": "2025-04-01"
+}

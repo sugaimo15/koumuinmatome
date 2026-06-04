@@ -1,0 +1,12 @@
+{
+  "slug": "miyagi",
+  "name": "宮城県",
+  "region": "東北",
+  "municipalities": [
+    { "slug": "miyagi-prefecture", "name": "宮城県（県職員）", "type": "prefecture" },
+    { "slug": "sendai-city", "name": "仙台市", "type": "designated-city" },
+    { "slug": "natori-city", "name": "名取市", "type": "city" },
+    { "slug": "ishinomaki-city", "name": "石巻市", "type": "city" },
+    { "slug": "osaki-city", "name": "大崎市", "type": "city" }
+  ]
+}
