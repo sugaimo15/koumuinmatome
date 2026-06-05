@@ -1,11 +1,12 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ExternalLink, ChevronRight, Clock, Users, GraduationCap } from 'lucide-react';
+import { ExternalLink, ChevronRight, Users, ArrowRight } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getMunicipality, getAllMunicipalityParams, municipalityTypeLabel } from '@/lib/getMunicipalities';
-import { formatDate, formatRatio, formatApplicants, educationLabel, subjectTypeLabel, formatSalary } from '@/lib/formatters';
+import { formatDate, formatRatio, formatApplicants } from '@/lib/formatters';
 import DifficultyMeter from '@/components/ui/DifficultyMeter';
 import Tag from '@/components/ui/Tag';
+import type { ExamTypeSchedule } from '@/types/municipality';
 
 export async function generateStaticParams() {
   return getAllMunicipalityParams();
@@ -35,6 +36,15 @@ const typeColors: Record<string, string> = {
   'special-ward': 'bg-violet-100 text-violet-700',
 };
 
+const scheduleRows: { key: keyof ExamTypeSchedule; label: string }[] = [
+  { key: 'applicationStart', label: '申込開始' },
+  { key: 'applicationEnd', label: '申込締切' },
+  { key: 'firstExam', label: '一次試験' },
+  { key: 'firstResult', label: '一次合格発表' },
+  { key: 'secondExam', label: '二次試験' },
+  { key: 'finalResult', label: '最終合格発表' },
+];
+
 export default async function MunicipalityDetailPage({
   params,
 }: {
@@ -47,7 +57,7 @@ export default async function MunicipalityDetailPage({
   const latestStat = m.stats.at(-1);
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-10">
+    <div className="max-w-3xl mx-auto px-4 py-10">
       {/* Breadcrumb */}
       <nav className="flex items-center gap-1.5 text-xs text-slate-400 mb-6 flex-wrap">
         <Link href="/" className="hover:text-slate-600">トップ</Link>
@@ -82,84 +92,105 @@ export default async function MunicipalityDetailPage({
         </div>
 
         <h1 className="text-2xl font-bold text-slate-900 mb-1">{m.name}</h1>
-        <p className="text-sm text-slate-500 mb-4">職員採用試験（行政・大卒程度）</p>
-        <p className="text-slate-600 leading-relaxed mb-5">{m.overview.description}</p>
+        <p className="text-sm text-slate-500 mb-4">職員採用試験情報</p>
+        <p className="text-slate-600 leading-relaxed mb-4">{m.overview.description}</p>
 
         <div className="flex flex-wrap gap-1.5 mb-5">
           {m.overview.tags.map((tag) => <Tag key={tag} label={tag} />)}
         </div>
 
-        {/* Key stats */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <div className="bg-slate-50 rounded-xl p-3">
+        <div className="flex flex-wrap gap-4">
+          <div className="bg-slate-50 rounded-xl px-4 py-3">
             <p className="text-xs text-slate-400 mb-1.5">難易度</p>
             <DifficultyMeter level={m.overview.difficulty} showLabel />
           </div>
-          <div className="bg-slate-50 rounded-xl p-3">
-            <p className="text-xs text-slate-400 mb-1">年齢上限</p>
-            <p className="text-lg font-bold text-slate-800">{m.overview.ageLimit.max}歳</p>
-            {m.overview.ageLimit.note && (
-              <p className="text-xs text-slate-400 mt-0.5 leading-snug">{m.overview.ageLimit.note}</p>
-            )}
-          </div>
-          <div className="bg-slate-50 rounded-xl p-3">
-            <p className="text-xs text-slate-400 mb-1">必要学歴</p>
-            <p className="text-sm font-semibold text-slate-800">{educationLabel(m.overview.education)}</p>
-          </div>
           {latestStat && (
-            <div className="bg-slate-50 rounded-xl p-3">
+            <div className="bg-slate-50 rounded-xl px-4 py-3">
               <p className="text-xs text-slate-400 mb-1">最新倍率</p>
               <p className="text-lg font-bold text-slate-800">{formatRatio(latestStat.competitionRatio)}</p>
               <p className="text-xs text-slate-400">（{latestStat.year}年）</p>
             </div>
           )}
         </div>
-
-        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-slate-600">
-          {m.overview.workLocation && (
-            <div className="flex items-start gap-2">
-              <span className="text-slate-400 flex-shrink-0">勤務地：</span>
-              <span>{m.overview.workLocation}</span>
-            </div>
-          )}
-          {m.overview.salaryRange && (
-            <div className="flex items-start gap-2">
-              <span className="text-slate-400 flex-shrink-0">給与目安：</span>
-              <span>{formatSalary(m.overview.salaryRange.min)} 〜 {formatSalary(m.overview.salaryRange.max)}/年</span>
-            </div>
-          )}
-        </div>
       </div>
 
-      {/* Subjects */}
-      <div className="bg-white rounded-2xl border border-slate-100 p-6 mb-6 shadow-sm">
-        <h2 className="text-lg font-bold text-slate-800 mb-4">試験科目・内容</h2>
-        <div className="space-y-3">
-          {m.subjects.map((subject, i) => (
-            <div key={i} className="border border-slate-100 rounded-xl p-4">
-              <div className="flex items-start justify-between gap-3 mb-2">
-                <h3 className="font-semibold text-slate-800 text-sm">{subject.name}</h3>
-                <span className="text-xs bg-slate-100 text-slate-500 px-2 py-0.5 rounded flex-shrink-0">
-                  {subjectTypeLabel(subject.type)}
-                </span>
-              </div>
-              <p className="text-xs text-slate-500 leading-relaxed mb-2">{subject.description}</p>
-              <div className="flex flex-wrap gap-3 text-xs text-slate-400">
-                {subject.questionCount && (
-                  <span className="flex items-center gap-1"><Users className="w-3 h-3" />{subject.questionCount}問</span>
-                )}
-                {subject.duration && (
-                  <span className="flex items-center gap-1"><Clock className="w-3 h-3" />{subject.duration}分</span>
-                )}
-              </div>
+      {/* Exam types */}
+      <div className="space-y-4 mb-6">
+        {m.examTypes.map((et, i) => (
+          <div key={i} className="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
+            <div className="bg-indigo-50 border-b border-indigo-100 px-6 py-4 flex items-center justify-between gap-3">
+              <h2 className="font-bold text-indigo-900 text-base">{et.name}</h2>
+              <a
+                href={m.officialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-shrink-0 flex items-center gap-1 text-xs text-indigo-600 hover:text-indigo-700"
+              >
+                公式サイト <ExternalLink className="w-3 h-3" />
+              </a>
             </div>
-          ))}
-        </div>
+
+            <div className="p-6 space-y-6">
+              {/* Schedule */}
+              <div>
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-3">日程</h3>
+                <div>
+                  {scheduleRows
+                    .filter((row) => et.schedule[row.key])
+                    .map((row) => (
+                      <div key={row.key} className="flex gap-3 py-2.5 border-b border-slate-50 last:border-0">
+                        <span className="text-xs font-medium text-slate-400 w-28 flex-shrink-0 pt-0.5">{row.label}</span>
+                        <span className="text-sm text-slate-800">{et.schedule[row.key]}</span>
+                      </div>
+                    ))}
+                </div>
+                {et.schedule.note && (
+                  <p className="mt-3 text-xs text-indigo-600 bg-indigo-50 border border-indigo-100 rounded-lg px-3 py-2">
+                    💡 {et.schedule.note}
+                  </p>
+                )}
+              </div>
+
+              {/* Eligibility */}
+              <div>
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-3">受験資格</h3>
+                <p className="text-sm text-slate-700 leading-relaxed">{et.eligibility.description}</p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {et.eligibility.ageMax && (
+                    <span className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-lg">
+                      年齢上限 {et.eligibility.ageMax}歳
+                      {et.eligibility.ageNote && `（${et.eligibility.ageNote}）`}
+                    </span>
+                  )}
+                  {et.eligibility.education && (
+                    <span className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-lg">
+                      {et.eligibility.education}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              {/* CTA */}
+              <a
+                href={m.officialUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between w-full bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-3 rounded-xl transition-colors group"
+              >
+                <span className="text-sm font-semibold">詳しくは公式サイトから</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* Stats */}
       <div className="bg-white rounded-2xl border border-slate-100 p-6 mb-6 shadow-sm">
-        <h2 className="text-lg font-bold text-slate-800 mb-4">受験者数・倍率推移</h2>
+        <h2 className="text-base font-bold text-slate-800 mb-4 flex items-center gap-2">
+          <Users className="w-4 h-4 text-slate-400" />
+          受験者数・倍率推移
+        </h2>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
@@ -190,68 +221,6 @@ export default async function MunicipalityDetailPage({
         </div>
       </div>
 
-      {/* Exam Schedule */}
-      {m.examSchedule && (
-        <div className="bg-white rounded-2xl border border-slate-100 p-6 mb-6 shadow-sm">
-          <h2 className="text-lg font-bold text-slate-800 mb-4">試験日程（例年の目安）</h2>
-          <div className="space-y-2">
-            {[
-              { label: '申込開始', value: m.examSchedule.applicationStart },
-              { label: '申込締切', value: m.examSchedule.applicationEnd },
-              { label: '一次試験（筆記）', value: m.examSchedule.firstExam },
-              { label: '一次合格発表', value: m.examSchedule.firstResult },
-              { label: '二次試験', value: m.examSchedule.secondExam },
-              { label: '最終合格発表', value: m.examSchedule.finalResult },
-            ]
-              .filter((r) => r.value)
-              .map((row) => (
-                <div key={row.label} className="flex gap-3 py-2 border-b border-slate-50 last:border-0">
-                  <span className="text-xs font-medium text-slate-500 w-36 flex-shrink-0">{row.label}</span>
-                  <span className="text-sm text-slate-700">{row.value}</span>
-                </div>
-              ))}
-          </div>
-          {m.examSchedule.note && (
-            <p className="mt-3 text-xs text-indigo-600 bg-indigo-50 border border-indigo-100 rounded-lg px-3 py-2">
-              💡 {m.examSchedule.note}
-            </p>
-          )}
-        </div>
-      )}
-
-      {/* Salary & Job types */}
-      {(m.salaryDetail || m.jobTypes) && (
-        <div className="bg-white rounded-2xl border border-slate-100 p-6 mb-6 shadow-sm">
-          <h2 className="text-lg font-bold text-slate-800 mb-4">給与・職種情報</h2>
-          {m.salaryDetail && (
-            <div className="mb-4">
-              <p className="text-xs text-slate-500 mb-1">初任給</p>
-              {m.salaryDetail.startingSalary && (
-                <p className="text-2xl font-bold text-slate-900">
-                  {m.salaryDetail.startingSalary.toLocaleString('ja-JP')}円
-                  <span className="text-sm text-slate-400 font-normal ml-1">/ 月</span>
-                </p>
-              )}
-              {m.salaryDetail.note && (
-                <p className="text-xs text-slate-500 mt-1">{m.salaryDetail.note}</p>
-              )}
-            </div>
-          )}
-          {m.jobTypes && m.jobTypes.length > 0 && (
-            <div>
-              <p className="text-xs text-slate-500 mb-2">採用職種一覧</p>
-              <div className="flex flex-wrap gap-2">
-                {m.jobTypes.map((jt) => (
-                  <span key={jt} className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-lg">
-                    {jt}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-      )}
-
       {/* Notice */}
       <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6 text-sm text-amber-700">
         ⚠️ 掲載情報（最終確認日：{formatDate(m.lastUpdated)}）は参考目的です。最新情報は
@@ -259,16 +228,13 @@ export default async function MunicipalityDetailPage({
         でご確認ください。
       </div>
 
-      {/* CTA */}
+      {/* Navigation */}
       <div className="flex flex-wrap gap-3">
         <Link href={`/municipalities/${prefectureSlug}`} className="text-sm border border-slate-200 text-slate-600 hover:bg-slate-50 px-5 py-2.5 rounded-xl transition-colors">
           ← {m.prefectureName}の一覧に戻る
         </Link>
         <Link href="/municipalities" className="text-sm border border-slate-200 text-slate-600 hover:bg-slate-50 px-5 py-2.5 rounded-xl transition-colors">
           全国一覧へ
-        </Link>
-        <Link href={`/compare?a=${m.id}`} className="text-sm bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-xl transition-colors">
-          他の試験と比較する
         </Link>
       </div>
     </div>

@@ -6,49 +6,30 @@
   "name": "大崎市",
   "type": "city",
   "overview": {
-    "description": "宮城県北西部に位置する大崎市（人口約12万人）の職員採用試験。ササニシキ・ひとめぼれの産地として知られる農業都市。ラムサール条約登録湿地「蕪栗沼・周辺水田」を持ち、環境・農業行政に関わりたい人に注目の自治体。",
+    "description": "宮城県北西部に位置する農業都市・大崎市（人口約12万人）の職員採用試験。ラムサール条約登録湿地を持ち、環境・農業行政に関わりたい人に注目の自治体。",
     "difficulty": 2,
-    "ageLimit": { "max": 30, "note": "試験実施年の4月1日時点" },
-    "education": "university",
-    "salaryRange": { "min": 192, "max": 630 },
-    "workLocation": "大崎市内（転勤なし）",
     "tags": ["農業都市", "環境行政", "転勤なし", "宮城県北"]
   },
-  "subjects": [
+  "examTypes": [
     {
-      "name": "教養試験",
-      "type": "written",
-      "description": "大卒程度の一般知能・一般知識",
-      "questionCount": 45,
-      "duration": 120
-    },
-    {
-      "name": "論文試験",
-      "type": "essay",
-      "description": "大崎市の農業・環境行政課題に関する論述",
-      "duration": 60
-    },
-    {
-      "name": "個別面接",
-      "type": "interview",
-      "description": "人物・地域への貢献意欲を評価",
-      "duration": 30
+      "name": "一般行政職（大学卒業程度）",
+      "schedule": {
+        "applicationStart": "2025年4月下旬〜5月頃",
+        "applicationEnd": "2025年5〜6月頃",
+        "firstExam": "2025年6月22日（日）頃（教養試験）",
+        "firstResult": "2025年7〜8月頃",
+        "secondExam": "2025年8〜9月頃（論文・個別面接）",
+        "finalResult": "2025年10月頃",
+        "note": "年度ごとに日程が異なります。必ず市ホームページの最新情報をご確認ください。"
+      },
+      "eligibility": {
+        "description": "試験実施年の4月1日時点で30歳未満。大学卒業（見込み含む）。",
+        "ageMax": 30,
+        "ageNote": "試験実施年の4月1日時点",
+        "education": "大学卒業（見込み含む）"
+      }
     }
   ],
-  "examSchedule": {
-    "applicationStart": "2025年4月下旬〜5月頃",
-    "applicationEnd": "2025年5月〜6月頃",
-    "firstExam": "2025年6月22日（日）頃・一次試験（教養筆記）※A日程",
-    "firstResult": "2025年7月〜8月頃（一次合格発表）",
-    "secondExam": "2025年8月〜9月頃（論文・個別面接）",
-    "finalResult": "2025年10月頃（最終合格発表）",
-    "note": "大崎市の日程は年度ごとに公示されます。必ず市ホームページの最新情報をご確認ください。"
-  },
-  "salaryDetail": {
-    "startingSalary": 192000,
-    "note": "大卒初任給192,000円（令和6年度実績）。各種手当別途支給。"
-  },
-  "jobTypes": ["行政（事務）", "土木", "農業", "建築", "電気"],
   "stats": [
     { "year": 2024, "applicantCount": 180, "passCount": 36, "competitionRatio": 5.0, "hireCount": 12 },
     { "year": 2023, "applicantCount": 200, "passCount": 40, "competitionRatio": 5.0, "hireCount": 14 },

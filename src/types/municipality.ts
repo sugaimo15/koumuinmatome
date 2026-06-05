@@ -1,6 +1,29 @@
-import type { ExamSubject, ExamStats, EducationRequirement, DifficultyLevel } from './exam';
+import type { ExamStats, DifficultyLevel } from './exam';
 
 export type MunicipalityType = 'prefecture' | 'city' | 'designated-city' | 'town' | 'village' | 'special-ward';
+
+export interface ExamTypeSchedule {
+  applicationStart?: string;
+  applicationEnd?: string;
+  firstExam?: string;
+  firstResult?: string;
+  secondExam?: string;
+  finalResult?: string;
+  note?: string;
+}
+
+export interface ExamTypeEligibility {
+  description: string;
+  ageMax?: number;
+  ageNote?: string;
+  education?: string;
+}
+
+export interface MunicipalityExamType {
+  name: string;
+  schedule: ExamTypeSchedule;
+  eligibility: ExamTypeEligibility;
+}
 
 export interface Municipality {
   id: string;
@@ -12,27 +35,9 @@ export interface Municipality {
   overview: {
     description: string;
     difficulty: DifficultyLevel;
-    ageLimit: { max: number; note?: string };
-    education: EducationRequirement;
-    salaryRange?: { min: number; max: number };
-    workLocation?: string;
     tags: string[];
   };
-  subjects: ExamSubject[];
-  examSchedule?: {
-    applicationStart?: string;
-    applicationEnd?: string;
-    firstExam?: string;
-    firstResult?: string;
-    secondExam?: string;
-    finalResult?: string;
-    note?: string;
-  };
-  salaryDetail?: {
-    startingSalary?: number;
-    note?: string;
-  };
-  jobTypes?: string[];
+  examTypes: MunicipalityExamType[];
   stats: ExamStats[];
   officialUrl: string;
   lastUpdated: string;

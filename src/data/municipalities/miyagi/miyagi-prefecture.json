@@ -6,60 +6,30 @@
   "name": "宮城県（県職員）",
   "type": "prefecture",
   "overview": {
-    "description": "宮城県が実施する県職員採用試験（行政職・大卒程度）。仙台市を中心とした東北最大の自治体で、政策立案から住民サービスまで幅広い業務を担う。東日本大震災の復興関連業務も継続中で、防災・復興に携わりたい人にも注目の職場。",
+    "description": "宮城県が実施する県職員採用試験（行政職・大卒程度）。東日本大震災の復興関連業務も継続中で、防災・復興に携わりたい人にも注目の職場。",
     "difficulty": 3,
-    "ageLimit": { "max": 35, "note": "試験実施年の4月1日時点（行政・大卒程度）" },
-    "education": "university",
-    "salaryRange": { "min": 205, "max": 700 },
-    "workLocation": "宮城県内各地（転勤あり）",
-    "tags": ["東北最大規模", "復興関連", "地元志向", "行政"]
+    "tags": ["東北最大規模", "復興関連", "行政"]
   },
-  "subjects": [
+  "examTypes": [
     {
-      "name": "教養試験",
-      "type": "written",
-      "description": "大卒程度の一般知能・一般知識（文章理解・数的推理・判断推理・社会・人文・自然）",
-      "questionCount": 50,
-      "duration": 150,
-      "weight": "1/3"
-    },
-    {
-      "name": "専門試験",
-      "type": "written",
-      "description": "行政・法律・経済などの専門科目（多肢選択式）",
-      "questionCount": 40,
-      "duration": 120,
-      "weight": "1/3"
-    },
-    {
-      "name": "論文試験",
-      "type": "essay",
-      "description": "行政課題・社会問題に関する論述（800字程度）",
-      "duration": 60,
-      "weight": "1/6"
-    },
-    {
-      "name": "個別面接",
-      "type": "interview",
-      "description": "人物試験・志望動機・県政への貢献意欲などを評価",
-      "duration": 30,
-      "weight": "1/6"
+      "name": "行政（大学卒業程度）",
+      "schedule": {
+        "applicationStart": "2025年4月上旬頃",
+        "applicationEnd": "2025年4月下旬頃",
+        "firstExam": "2025年6月22日（日）頃",
+        "firstResult": "2025年8月上旬頃",
+        "secondExam": "2025年8〜9月頃（論文・個別面接）",
+        "finalResult": "2025年9月下旬頃",
+        "note": "令和7年度の日程は例年の目安です。確定日程は宮城県人事委員会の公示をご確認ください。"
+      },
+      "eligibility": {
+        "description": "試験実施年の4月1日時点で35歳未満。大学卒業（見込み含む）。",
+        "ageMax": 35,
+        "ageNote": "試験実施年の4月1日時点",
+        "education": "大学卒業（見込み含む）"
+      }
     }
   ],
-  "examSchedule": {
-    "applicationStart": "2025年4月1日（火）頃〜",
-    "applicationEnd": "2025年4月25日（金）頃",
-    "firstExam": "2025年6月22日（日）一次試験（教養・専門筆記）",
-    "firstResult": "2025年8月上旬（一次合格発表）",
-    "secondExam": "2025年8月中旬〜9月（論文・個別面接）",
-    "finalResult": "2025年9月下旬（最終合格発表）",
-    "note": "令和7年度の日程は例年の目安です。確定日程は宮城県人事委員会の公示をご確認ください。"
-  },
-  "salaryDetail": {
-    "startingSalary": 205000,
-    "note": "大卒初任給205,000円（令和7年度）。各種手当（通勤・住居・扶養等）別途支給。"
-  },
-  "jobTypes": ["行政（事務）", "土木", "建築", "電気", "機械", "農業", "林業", "水産", "化学", "警察行政", "心理"],
   "stats": [
     { "year": 2024, "applicantCount": 1840, "passCount": 390, "competitionRatio": 4.7, "hireCount": 180 },
     { "year": 2023, "applicantCount": 1960, "passCount": 420, "competitionRatio": 4.7, "hireCount": 190 },

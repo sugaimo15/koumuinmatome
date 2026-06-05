@@ -6,49 +6,30 @@
   "name": "石巻市",
   "type": "city",
   "overview": {
-    "description": "東北最大の水産都市・石巻市（人口約13万人）の職員採用試験。東日本大震災で大きな被害を受けたが復興を遂げ、現在も防災・まちづくりに力を入れる。漁業・水産業が盛んな地域で、地域産業と関わる行政に携わりたい人に。",
+    "description": "東北最大の水産都市・石巻市（人口約13万人）の職員採用試験。東日本大震災の復興を遂げ、防災・まちづくりに力を入れる自治体。",
     "difficulty": 2,
-    "ageLimit": { "max": 30, "note": "試験実施年の4月1日時点" },
-    "education": "university",
-    "salaryRange": { "min": 193, "max": 640 },
-    "workLocation": "石巻市内（転勤なし）",
     "tags": ["復興支援", "水産都市", "転勤なし", "地域産業"]
   },
-  "subjects": [
+  "examTypes": [
     {
-      "name": "教養試験",
-      "type": "written",
-      "description": "大卒程度の一般知能・一般知識",
-      "questionCount": 45,
-      "duration": 120
-    },
-    {
-      "name": "論文試験",
-      "type": "essay",
-      "description": "石巻市の課題・地域振興に関する論述",
-      "duration": 60
-    },
-    {
-      "name": "個別面接",
-      "type": "interview",
-      "description": "人物・志望動機・石巻への貢献意欲を評価",
-      "duration": 30
+      "name": "一般行政職（大学卒業程度）",
+      "schedule": {
+        "applicationStart": "2025年4月下旬〜5月頃",
+        "applicationEnd": "2025年5〜6月頃",
+        "firstExam": "2025年6月22日（日）頃（教養試験）",
+        "firstResult": "2025年7〜8月頃",
+        "secondExam": "2025年8〜9月頃（論文・個別面接）",
+        "finalResult": "2025年9〜10月頃",
+        "note": "年度ごとに日程が異なります。必ず市ホームページの最新公示をご確認ください。"
+      },
+      "eligibility": {
+        "description": "試験実施年の4月1日時点で30歳未満。大学卒業（見込み含む）。",
+        "ageMax": 30,
+        "ageNote": "試験実施年の4月1日時点",
+        "education": "大学卒業（見込み含む）"
+      }
     }
   ],
-  "examSchedule": {
-    "applicationStart": "2025年4月下旬〜5月頃",
-    "applicationEnd": "2025年5月〜6月頃",
-    "firstExam": "2025年6月22日（日）頃・一次試験（教養筆記）※A日程",
-    "firstResult": "2025年7月〜8月頃（一次合格発表）",
-    "secondExam": "2025年8月〜9月頃（論文・個別面接）",
-    "finalResult": "2025年9月〜10月頃（最終合格発表）",
-    "note": "石巻市の日程は年度ごとに異なります。必ず市ホームページの最新公示をご確認ください。"
-  },
-  "salaryDetail": {
-    "startingSalary": 193000,
-    "note": "大卒初任給193,000円（令和6年度実績）。各種手当別途支給。"
-  },
-  "jobTypes": ["行政（事務）", "土木", "建築", "電気", "保育士", "保健師"],
   "stats": [
     { "year": 2024, "applicantCount": 320, "passCount": 60, "competitionRatio": 5.3, "hireCount": 22 },
     { "year": 2023, "applicantCount": 350, "passCount": 65, "competitionRatio": 5.4, "hireCount": 24 },
