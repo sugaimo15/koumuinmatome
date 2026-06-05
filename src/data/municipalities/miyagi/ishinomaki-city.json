@@ -35,11 +35,25 @@
       "duration": 30
     }
   ],
+  "examSchedule": {
+    "applicationStart": "2025年4月下旬〜5月頃",
+    "applicationEnd": "2025年5月〜6月頃",
+    "firstExam": "2025年6月22日（日）頃・一次試験（教養筆記）※A日程",
+    "firstResult": "2025年7月〜8月頃（一次合格発表）",
+    "secondExam": "2025年8月〜9月頃（論文・個別面接）",
+    "finalResult": "2025年9月〜10月頃（最終合格発表）",
+    "note": "石巻市の日程は年度ごとに異なります。必ず市ホームページの最新公示をご確認ください。"
+  },
+  "salaryDetail": {
+    "startingSalary": 193000,
+    "note": "大卒初任給193,000円（令和6年度実績）。各種手当別途支給。"
+  },
+  "jobTypes": ["行政（事務）", "土木", "建築", "電気", "保育士", "保健師"],
   "stats": [
     { "year": 2024, "applicantCount": 320, "passCount": 60, "competitionRatio": 5.3, "hireCount": 22 },
     { "year": 2023, "applicantCount": 350, "passCount": 65, "competitionRatio": 5.4, "hireCount": 24 },
     { "year": 2022, "applicantCount": 380, "passCount": 68, "competitionRatio": 5.6, "hireCount": 25 }
   ],
   "officialUrl": "https://www.city.ishinomaki.lg.jp/cont/10080500/",
-  "lastUpdated": "2025-04-01"
+  "lastUpdated": "2025-06-05"
 }

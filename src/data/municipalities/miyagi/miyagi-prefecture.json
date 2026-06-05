@@ -46,11 +46,25 @@
       "weight": "1/6"
     }
   ],
+  "examSchedule": {
+    "applicationStart": "2025年4月1日（火）頃〜",
+    "applicationEnd": "2025年4月25日（金）頃",
+    "firstExam": "2025年6月22日（日）一次試験（教養・専門筆記）",
+    "firstResult": "2025年8月上旬（一次合格発表）",
+    "secondExam": "2025年8月中旬〜9月（論文・個別面接）",
+    "finalResult": "2025年9月下旬（最終合格発表）",
+    "note": "令和7年度の日程は例年の目安です。確定日程は宮城県人事委員会の公示をご確認ください。"
+  },
+  "salaryDetail": {
+    "startingSalary": 205000,
+    "note": "大卒初任給205,000円（令和7年度）。各種手当（通勤・住居・扶養等）別途支給。"
+  },
+  "jobTypes": ["行政（事務）", "土木", "建築", "電気", "機械", "農業", "林業", "水産", "化学", "警察行政", "心理"],
   "stats": [
     { "year": 2024, "applicantCount": 1840, "passCount": 390, "competitionRatio": 4.7, "hireCount": 180 },
     { "year": 2023, "applicantCount": 1960, "passCount": 420, "competitionRatio": 4.7, "hireCount": 190 },
     { "year": 2022, "applicantCount": 2100, "passCount": 440, "competitionRatio": 4.8, "hireCount": 195 }
   ],
   "officialUrl": "https://www.pref.miyagi.jp/soshiki/jinji/",
-  "lastUpdated": "2025-04-01"
+  "lastUpdated": "2025-06-05"
 }

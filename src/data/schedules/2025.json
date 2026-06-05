@@ -265,6 +265,139 @@
       "eventType": "exam-final-result",
       "date": "2025-06-20",
       "isApproximate": false
+    },
+    {
+      "id": "sendai-2025-app-start",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "application-start",
+      "date": "2025-04-21",
+      "isApproximate": true,
+      "note": "申込開始（例年4月下旬）",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2025-app-end",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "application-end",
+      "date": "2025-05-09",
+      "isApproximate": true,
+      "note": "申込締切（例年5月中旬）",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2025-written",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2025-06-15",
+      "isApproximate": false,
+      "note": "一次試験（教養・専門筆記）令和7年度確定日程",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2025-result1",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "exam-result",
+      "date": "2025-07-07",
+      "isApproximate": true,
+      "note": "一次合格発表（例年7月上旬）",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2025-interview",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "exam-interview",
+      "date": "2025-07-14",
+      "endDate": "2025-08-15",
+      "isApproximate": true,
+      "note": "二次試験（集団面接・論文・個別面接）例年7月〜8月中旬",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2025-final",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2025-08-25",
+      "isApproximate": true,
+      "note": "最終合格発表（例年8月下旬）",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "miyagi-pref-2025-app-start",
+      "examId": "miyagi-prefecture",
+      "examName": "宮城県職員採用試験",
+      "category": "local",
+      "eventType": "application-start",
+      "date": "2025-04-01",
+      "isApproximate": true,
+      "note": "申込開始（例年4月上旬）",
+      "officialSourceUrl": "https://www.pref.miyagi.jp/soshiki/jinji/"
+    },
+    {
+      "id": "miyagi-pref-2025-written",
+      "examId": "miyagi-prefecture",
+      "examName": "宮城県職員採用試験",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2025-06-22",
+      "isApproximate": true,
+      "note": "一次試験（教養・専門筆記）統一A日程",
+      "officialSourceUrl": "https://www.pref.miyagi.jp/soshiki/jinji/"
+    },
+    {
+      "id": "miyagi-pref-2025-final",
+      "examId": "miyagi-prefecture",
+      "examName": "宮城県職員採用試験",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2025-09-25",
+      "isApproximate": true,
+      "note": "最終合格発表（例年9月下旬）",
+      "officialSourceUrl": "https://www.pref.miyagi.jp/soshiki/jinji/"
+    },
+    {
+      "id": "tokyo-metro-2025-app-start",
+      "examId": "tokyo-metropolitan",
+      "examName": "東京都職員採用試験（Ⅰ類B）",
+      "category": "local",
+      "eventType": "application-start",
+      "date": "2025-03-24",
+      "isApproximate": true,
+      "note": "申込開始（令和7年度概算）",
+      "officialSourceUrl": "https://www.saiyou2.metro.tokyo.lg.jp/"
+    },
+    {
+      "id": "tokyo-metro-2025-written",
+      "examId": "tokyo-metropolitan",
+      "examName": "東京都職員採用試験（Ⅰ類B）",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2025-05-11",
+      "isApproximate": true,
+      "note": "一次試験（教養・専門記述）",
+      "officialSourceUrl": "https://www.saiyou2.metro.tokyo.lg.jp/"
+    },
+    {
+      "id": "tokyo-metro-2025-final",
+      "examId": "tokyo-metropolitan",
+      "examName": "東京都職員採用試験（Ⅰ類B）",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2025-09-25",
+      "isApproximate": true,
+      "note": "最終合格発表（例年9月下旬）",
+      "officialSourceUrl": "https://www.saiyou2.metro.tokyo.lg.jp/"
     }
   ]
 }

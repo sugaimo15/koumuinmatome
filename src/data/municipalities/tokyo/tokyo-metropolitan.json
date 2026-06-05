@@ -45,11 +45,25 @@
       "weight": "1/6"
     }
   ],
+  "examSchedule": {
+    "applicationStart": "2025年3月24日（月）〜",
+    "applicationEnd": "2025年4月11日（金）",
+    "firstExam": "2025年5月11日（日）一次試験（教養・専門記述）",
+    "firstResult": "2025年7月上旬（一次合格発表）",
+    "secondExam": "2025年7月中旬〜8月（論文・個別面接 2回）",
+    "finalResult": "2025年9月下旬（最終合格発表）",
+    "note": "東京都Ⅰ類B（行政・一般方式）の令和7年度日程（概算）。確定日程は東京都人事委員会のホームページをご確認ください。"
+  },
+  "salaryDetail": {
+    "startingSalary": 240000,
+    "note": "大卒初任給240,000円（令和7年度）。地域手当（20%）を含む。各種手当別途支給。"
+  },
+  "jobTypes": ["行政（一般方式）", "行政（新方式）", "ICT", "土木", "建築", "機械", "電気", "化学", "農業", "造園", "福祉"],
   "stats": [
     { "year": 2024, "applicantCount": 6800, "passCount": 850, "competitionRatio": 8.0, "hireCount": 340 },
     { "year": 2023, "applicantCount": 7200, "passCount": 880, "competitionRatio": 8.2, "hireCount": 360 },
     { "year": 2022, "applicantCount": 7600, "passCount": 920, "competitionRatio": 8.3, "hireCount": 380 }
   ],
   "officialUrl": "https://www.saiyou2.metro.tokyo.lg.jp/",
-  "lastUpdated": "2025-04-01"
+  "lastUpdated": "2025-06-05"
 }

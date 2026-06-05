@@ -59,13 +59,13 @@
     }
   ],
   "examSchedule": {
-    "applicationStart": "4月下旬（例年）",
-    "applicationEnd": "5月中旬（例年）",
-    "firstExam": "6月中旬（一次試験：筆記）",
-    "firstResult": "7月上旬（一次合格発表）",
-    "secondExam": "7月上旬〜8月中旬（集団面接・論文・個別面接）",
-    "finalResult": "8月下旬（最終合格発表）",
-    "note": "令和7年度より早期枠（SPI3）を新設。早期枠は通常枠より日程が早い。"
+    "applicationStart": "2025年4月21日（月）〜",
+    "applicationEnd": "2025年5月9日（金）",
+    "firstExam": "2025年6月15日（日）一次試験（筆記）",
+    "firstResult": "2025年7月上旬（一次合格発表）",
+    "secondExam": "2025年7月〜8月中旬（集団面接・論文・個別面接）",
+    "finalResult": "2025年8月下旬（最終合格発表）",
+    "note": "令和7年度より早期枠（SPI3）を新設。早期枠は通常枠より日程が早い。※一次試験日（6/15）は確定情報。その他は例年の目安です。"
   },
   "salaryDetail": {
     "startingSalary": 225000,

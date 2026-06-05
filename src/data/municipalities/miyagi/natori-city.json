@@ -34,11 +34,25 @@
       "duration": 30
     }
   ],
+  "examSchedule": {
+    "applicationStart": "2025年5月頃〜（随時公示）",
+    "applicationEnd": "2025年6月頃（公示後約4週間）",
+    "firstExam": "2025年7月〜8月頃・一次試験（SPI3・作文）",
+    "firstResult": "2025年8月〜9月頃（一次合格発表）",
+    "secondExam": "2025年9月〜10月頃（個別面接）",
+    "finalResult": "2025年10月〜11月頃（最終合格発表）",
+    "note": "名取市はSPI型採用を導入。日程は年度により異なるため、市ホームページの採用情報ページをご確認ください。"
+  },
+  "salaryDetail": {
+    "startingSalary": 195000,
+    "note": "大卒初任給195,000円（令和6年度実績）。各種手当別途支給。"
+  },
+  "jobTypes": ["行政（事務）", "土木", "建築", "電気"],
   "stats": [
     { "year": 2024, "applicantCount": 280, "passCount": 56, "competitionRatio": 5.0, "hireCount": 18 },
     { "year": 2023, "applicantCount": 310, "passCount": 60, "competitionRatio": 5.2, "hireCount": 20 },
     { "year": 2022, "applicantCount": 340, "passCount": 65, "competitionRatio": 5.2, "hireCount": 22 }
   ],
   "officialUrl": "https://www.city.natori.miyagi.jp/shisei/jinji/",
-  "lastUpdated": "2025-04-01"
+  "lastUpdated": "2025-06-05"
 }
