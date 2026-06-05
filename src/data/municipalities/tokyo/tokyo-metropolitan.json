@@ -14,13 +14,13 @@
     {
       "name": "Ⅰ類B・行政（一般方式）",
       "schedule": {
-        "applicationStart": "2025年3月24日（月）頃",
-        "applicationEnd": "2025年4月11日（金）頃",
-        "firstExam": "2025年5月11日（日）頃（教養・専門記述）",
-        "firstResult": "2025年7月上旬頃",
-        "secondExam": "2025年7月中旬〜8月（論文・個別面接 2回）",
-        "finalResult": "2025年9月下旬頃",
-        "note": "令和7年度の日程は概算です。確定日程は東京都人事委員会のホームページをご確認ください。"
+        "applicationStart": "2026年3月下旬頃",
+        "applicationEnd": "2026年4月上旬頃",
+        "firstExam": "2026年5月10日（日）頃（教養・専門記述）",
+        "firstResult": "2026年7月上旬頃",
+        "secondExam": "2026年7月中旬〜8月（論文・個別面接 2回）",
+        "finalResult": "2026年9月下旬頃",
+        "note": "令和8年度の日程は例年の目安です。確定日程は東京都人事委員会のホームページをご確認ください。"
       },
       "eligibility": {
         "description": "採用年の4月1日時点で22歳以上31歳未満。大学卒業（見込み含む）。",
@@ -32,8 +32,8 @@
     {
       "name": "Ⅰ類B・行政（新方式）",
       "schedule": {
-        "firstExam": "2025年5〜6月頃（グループワーク・プレゼンテーション）",
-        "finalResult": "2025年9月下旬頃",
+        "firstExam": "2026年5〜6月頃（グループワーク・プレゼンテーション）",
+        "finalResult": "2026年9月下旬頃",
         "note": "新方式は筆記試験なし。プレゼンテーション・グループワーク中心。詳細は公式サイトをご確認ください。"
       },
       "eligibility": {
@@ -50,5 +50,5 @@
     { "year": 2022, "applicantCount": 7600, "passCount": 920, "competitionRatio": 8.3, "hireCount": 380 }
   ],
   "officialUrl": "https://www.saiyou2.metro.tokyo.lg.jp/",
-  "lastUpdated": "2025-06-05"
+  "lastUpdated": "2026-06-05"
 }

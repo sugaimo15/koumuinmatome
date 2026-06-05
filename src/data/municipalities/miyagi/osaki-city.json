@@ -14,12 +14,12 @@
     {
       "name": "一般行政職（大学卒業程度）",
       "schedule": {
-        "applicationStart": "2025年4月下旬〜5月頃",
-        "applicationEnd": "2025年5〜6月頃",
-        "firstExam": "2025年6月22日（日）頃（教養試験）",
-        "firstResult": "2025年7〜8月頃",
-        "secondExam": "2025年8〜9月頃（論文・個別面接）",
-        "finalResult": "2025年10月頃",
+        "applicationStart": "2026年4月下旬〜5月頃",
+        "applicationEnd": "2026年5〜6月頃",
+        "firstExam": "2026年6月21日（日）頃（教養試験）",
+        "firstResult": "2026年7〜8月頃",
+        "secondExam": "2026年8〜9月頃（論文・個別面接）",
+        "finalResult": "2026年10月頃",
         "note": "年度ごとに日程が異なります。必ず市ホームページの最新情報をご確認ください。"
       },
       "eligibility": {
@@ -36,5 +36,5 @@
     { "year": 2022, "applicantCount": 220, "passCount": 42, "competitionRatio": 5.2, "hireCount": 15 }
   ],
   "officialUrl": "https://www.city.osaki.miyagi.jp/index.cfm/26,0,134,html",
-  "lastUpdated": "2025-06-05"
+  "lastUpdated": "2026-06-05"
 }

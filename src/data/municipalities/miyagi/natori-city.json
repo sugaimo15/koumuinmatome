@@ -14,11 +14,11 @@
     {
       "name": "一般行政職（大学卒業程度）",
       "schedule": {
-        "applicationStart": "2025年5〜6月頃（公示後随時）",
+        "applicationStart": "2026年5〜6月頃（公示後随時）",
         "applicationEnd": "公示後約4週間",
-        "firstExam": "2025年7〜8月頃（SPI3・作文）",
-        "secondExam": "2025年9〜10月頃（個別面接）",
-        "finalResult": "2025年10〜11月頃",
+        "firstExam": "2026年7〜8月頃（SPI3・作文）",
+        "secondExam": "2026年9〜10月頃（個別面接）",
+        "finalResult": "2026年10〜11月頃",
         "note": "名取市はSPI型を導入。年度により日程が変わるため市ホームページでご確認ください。"
       },
       "eligibility": {
@@ -35,5 +35,5 @@
     { "year": 2022, "applicantCount": 340, "passCount": 65, "competitionRatio": 5.2, "hireCount": 22 }
   ],
   "officialUrl": "https://www.city.natori.miyagi.jp/shisei/jinji/",
-  "lastUpdated": "2025-06-05"
+  "lastUpdated": "2026-06-05"
 }

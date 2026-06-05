@@ -6,7 +6,7 @@
   "name": "仙台市",
   "type": "designated-city",
   "overview": {
-    "description": "東北唯一の政令指定都市。人口約110万人の行政を担い、都道府県並みの権限を持つ。令和7年度からSPI3を活用した早期枠が新設された。",
+    "description": "東北唯一の政令指定都市。人口約110万人の行政を担い、都道府県並みの権限を持つ。早期枠（SPI3）と一般枠の2つの採用ルートがある。",
     "difficulty": 3,
     "tags": ["政令指定都市", "東北最大", "早期枠あり（SPI3）", "多職種採用"]
   },
@@ -14,34 +14,35 @@
     {
       "name": "大学卒程度・行政職（一般枠）",
       "schedule": {
-        "applicationStart": "2025年4月21日（月）",
-        "applicationEnd": "2025年5月9日（金）",
-        "firstExam": "2025年6月15日（日）",
-        "firstResult": "2025年7月上旬",
-        "secondExam": "2025年7月〜8月中旬（集団面接・論文・個別面接）",
-        "finalResult": "2025年8月下旬"
+        "applicationStart": "2026年5月12日（火）",
+        "applicationEnd": "2026年5月19日（火）",
+        "firstExam": "2026年6月下旬頃",
+        "firstResult": "2026年7月上旬頃",
+        "secondExam": "2026年7月〜8月中旬（集団面接・論文・個別面接）",
+        "finalResult": "2026年8月下旬頃",
+        "note": "申込期間（5/12〜5/19）は令和8年度確定情報。一次試験日以降は例年の目安。"
       },
       "eligibility": {
-        "description": "令和7年4月1日時点で22歳以上30歳未満（昭和63年4月2日〜平成15年4月1日生まれ）。大学卒業または令和8年3月卒業見込みの方。",
+        "description": "令和8年4月1日時点で22歳以上30歳未満。大学卒業または令和9年3月卒業見込みの方。",
         "ageMax": 29,
-        "ageNote": "令和7年4月1日時点で30歳未満",
-        "education": "大学卒業（令和8年3月卒業見込み含む）"
+        "ageNote": "令和8年4月1日時点で30歳未満",
+        "education": "大学卒業（令和9年3月卒業見込み含む）"
       }
     },
     {
       "name": "大学卒程度・行政職（早期枠・SPI3）",
       "schedule": {
-        "applicationStart": "2025年2月頃",
-        "applicationEnd": "2025年3月頃",
-        "firstExam": "2025年3〜4月頃（SPI3・適性検査）",
-        "finalResult": "2025年5月頃",
-        "note": "令和7年度より新設。一般枠より日程が早い。詳細は公式サイトの公示をご確認ください。"
+        "applicationStart": "2026年2月頃",
+        "applicationEnd": "2026年3月頃",
+        "firstExam": "2026年3〜4月頃（SPI3・適性検査）",
+        "finalResult": "2026年5月頃",
+        "note": "一般枠より日程が早い。詳細は公式サイトの公示をご確認ください。"
       },
       "eligibility": {
-        "description": "一般枠と同じ年齢・学歴要件。令和7年4月1日時点で22歳以上30歳未満、大学卒業（見込み含む）。",
+        "description": "一般枠と同じ年齢・学歴要件。令和8年4月1日時点で22歳以上30歳未満、大学卒業（見込み含む）。",
         "ageMax": 29,
-        "ageNote": "令和7年4月1日時点で30歳未満",
-        "education": "大学卒業（令和8年3月卒業見込み含む）"
+        "ageNote": "令和8年4月1日時点で30歳未満",
+        "education": "大学卒業（令和9年3月卒業見込み含む）"
       }
     }
   ],
@@ -51,5 +52,5 @@
     { "year": 2022, "applicantCount": 2350, "passCount": 430, "competitionRatio": 5.5, "hireCount": 185 }
   ],
   "officialUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/",
-  "lastUpdated": "2025-06-05"
+  "lastUpdated": "2026-06-05"
 }

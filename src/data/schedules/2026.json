@@ -1,0 +1,268 @@
+{
+  "year": 2026,
+  "lastUpdated": "2026-06-05",
+  "events": [
+    {
+      "id": "ns-2026-app-start",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "application-start",
+      "date": "2026-01-19",
+      "isApproximate": true,
+      "note": "インターネット申込のみ（例年1月下旬）"
+    },
+    {
+      "id": "ns-2026-written",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "exam-written",
+      "date": "2026-03-22",
+      "isApproximate": true,
+      "note": "一次試験（例年3月第4日曜）"
+    },
+    {
+      "id": "ns-2026-final",
+      "examId": "national-sogoshoku",
+      "examName": "国家総合職",
+      "category": "national",
+      "eventType": "exam-final-result",
+      "date": "2026-06-09",
+      "isApproximate": true
+    },
+    {
+      "id": "ni-u-2026-app-start",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "application-start",
+      "date": "2026-03-23",
+      "isApproximate": true
+    },
+    {
+      "id": "ni-u-2026-written",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "exam-written",
+      "date": "2026-06-14",
+      "isApproximate": true,
+      "note": "例年6月第2日曜"
+    },
+    {
+      "id": "ni-u-2026-final",
+      "examId": "national-ippanshoku-university",
+      "examName": "国家一般職（大卒）",
+      "category": "national",
+      "eventType": "exam-final-result",
+      "date": "2026-08-18",
+      "isApproximate": true
+    },
+    {
+      "id": "ni-h-2026-written",
+      "examId": "national-ippanshoku-highschool",
+      "examName": "国家一般職（高卒）",
+      "category": "national",
+      "eventType": "exam-written",
+      "date": "2026-09-06",
+      "isApproximate": true
+    },
+    {
+      "id": "pref-2026-written",
+      "examId": "local-prefecture",
+      "examName": "都道府県職員",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2026-06-21",
+      "isApproximate": true,
+      "note": "多くの都道府県が統一実施（前期）"
+    },
+    {
+      "id": "pref-2026-final",
+      "examId": "local-prefecture",
+      "examName": "都道府県職員",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2026-09-19",
+      "isApproximate": true
+    },
+    {
+      "id": "city-2026-written",
+      "examId": "local-city",
+      "examName": "市区町村職員",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2026-06-21",
+      "isApproximate": true,
+      "note": "市町村統一（A日程）"
+    },
+    {
+      "id": "city-2026-written2",
+      "examId": "local-city",
+      "examName": "市区町村職員（B日程）",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2026-07-26",
+      "isApproximate": true,
+      "note": "市町村統一（B日程）"
+    },
+    {
+      "id": "city-2026-final",
+      "examId": "local-city",
+      "examName": "市区町村職員",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2026-10-14",
+      "isApproximate": true
+    },
+    {
+      "id": "tech-eng-2026-written",
+      "examId": "technical-engineering",
+      "examName": "技術系（土木・建築）",
+      "category": "technical",
+      "eventType": "exam-written",
+      "date": "2026-06-14",
+      "isApproximate": true
+    },
+    {
+      "id": "police-2026-written1",
+      "examId": "security-police",
+      "examName": "警察官（大卒）",
+      "category": "security",
+      "eventType": "exam-written",
+      "date": "2026-05-17",
+      "isApproximate": true,
+      "note": "第1回試験（多くの都道府県）"
+    },
+    {
+      "id": "police-2026-written2",
+      "examId": "security-police",
+      "examName": "警察官（大卒）",
+      "category": "security",
+      "eventType": "exam-written",
+      "date": "2026-09-20",
+      "isApproximate": true,
+      "note": "第2回試験（多くの都道府県）"
+    },
+    {
+      "id": "fire-2026-written",
+      "examId": "security-fire",
+      "examName": "消防官（大卒）",
+      "category": "security",
+      "eventType": "exam-written",
+      "date": "2026-06-28",
+      "isApproximate": true,
+      "note": "消防官統一試験（Ⅰ類）"
+    },
+    {
+      "id": "sendai-2026-app-start",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "application-start",
+      "date": "2026-05-12",
+      "isApproximate": false,
+      "note": "令和8年度確定日程",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2026-app-end",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "application-end",
+      "date": "2026-05-19",
+      "isApproximate": false,
+      "note": "令和8年度確定日程",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2026-written",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2026-06-21",
+      "isApproximate": true,
+      "note": "一次試験（例年6月）",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2026-result1",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "exam-result",
+      "date": "2026-07-06",
+      "isApproximate": true,
+      "note": "一次合格発表（例年7月上旬）",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2026-interview",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "exam-interview",
+      "date": "2026-07-13",
+      "endDate": "2026-08-14",
+      "isApproximate": true,
+      "note": "二次試験（集団面接・論文・個別面接）",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2026-final",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2026-08-24",
+      "isApproximate": true,
+      "note": "最終合格発表（例年8月下旬）",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "miyagi-pref-2026-written",
+      "examId": "miyagi-prefecture",
+      "examName": "宮城県職員採用試験",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2026-06-21",
+      "isApproximate": true,
+      "note": "一次試験（統一A日程）",
+      "officialSourceUrl": "https://www.pref.miyagi.jp/soshiki/jinji/"
+    },
+    {
+      "id": "miyagi-pref-2026-final",
+      "examId": "miyagi-prefecture",
+      "examName": "宮城県職員採用試験",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2026-09-24",
+      "isApproximate": true,
+      "officialSourceUrl": "https://www.pref.miyagi.jp/soshiki/jinji/"
+    },
+    {
+      "id": "tokyo-metro-2026-written",
+      "examId": "tokyo-metropolitan",
+      "examName": "東京都職員採用試験（Ⅰ類B）",
+      "category": "local",
+      "eventType": "exam-written",
+      "date": "2026-05-10",
+      "isApproximate": true,
+      "note": "一次試験（例年5月第2日曜）",
+      "officialSourceUrl": "https://www.saiyou2.metro.tokyo.lg.jp/"
+    },
+    {
+      "id": "tokyo-metro-2026-final",
+      "examId": "tokyo-metropolitan",
+      "examName": "東京都職員採用試験（Ⅰ類B）",
+      "category": "local",
+      "eventType": "exam-final-result",
+      "date": "2026-09-24",
+      "isApproximate": true,
+      "officialSourceUrl": "https://www.saiyou2.metro.tokyo.lg.jp/"
+    }
+  ]
+}
