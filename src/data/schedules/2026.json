@@ -156,36 +156,58 @@
       "note": "消防官統一試験（Ⅰ類）"
     },
     {
+      "id": "sendai-2026-souki-app-start",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験（早期枠）",
+      "category": "local",
+      "eventType": "application-start",
+      "date": "2026-03-02",
+      "isApproximate": false,
+      "note": "早期枠（SPI3）申込開始",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
+      "id": "sendai-2026-souki-result1",
+      "examId": "sendai-city",
+      "examName": "仙台市職員採用試験（早期枠）",
+      "category": "local",
+      "eventType": "exam-result",
+      "date": "2026-04-23",
+      "isApproximate": false,
+      "note": "早期枠 一次試験合格発表",
+      "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
+    },
+    {
       "id": "sendai-2026-app-start",
       "examId": "sendai-city",
-      "examName": "仙台市職員採用試験",
+      "examName": "仙台市職員採用試験（一般枠）",
       "category": "local",
       "eventType": "application-start",
       "date": "2026-05-12",
       "isApproximate": false,
-      "note": "令和8年度確定日程",
+      "note": "一般枠 申込開始（〜5/19）",
       "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
     },
     {
       "id": "sendai-2026-app-end",
       "examId": "sendai-city",
-      "examName": "仙台市職員採用試験",
+      "examName": "仙台市職員採用試験（一般枠）",
       "category": "local",
       "eventType": "application-end",
       "date": "2026-05-19",
       "isApproximate": false,
-      "note": "令和8年度確定日程",
+      "note": "一般枠 申込締切",
       "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
     },
     {
       "id": "sendai-2026-written",
       "examId": "sendai-city",
-      "examName": "仙台市職員採用試験",
+      "examName": "仙台市職員採用試験（一般枠）",
       "category": "local",
       "eventType": "exam-written",
       "date": "2026-06-21",
-      "isApproximate": true,
-      "note": "一次試験（例年6月）",
+      "isApproximate": false,
+      "note": "一般枠 第一次試験（令和8年度確定）",
       "officialSourceUrl": "https://www.city.sendai.jp/ninyo/shise/shokuin/saiyo/shikenjoho/"
     },
     {
